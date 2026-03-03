@@ -1,0 +1,1319 @@
+2025-03-31 18:41:53,433 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:43:53,445 - ERROR - Unexpected error in fetch_market_prices: HTTPConnectionPool(host='localhost', port=63384): Read timed out. (read timeout=120)
+2025-03-31 18:44:18,505 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:46:16,501 - INFO - Popup closed
+2025-03-31 18:46:16,501 - INFO - Fetching data for Tomato in Tamil Nadu, Chennai
+2025-03-31 18:46:16,598 - INFO - Selected commodity: Tomato
+2025-03-31 18:46:18,662 - INFO - Selected state: Tamil Nadu
+2025-03-31 18:46:24,598 - ERROR - Attempt 1 failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF705484C25+3179557]
+	(No symbol) [0x00007FF7050E88A0]
+	(No symbol) [0x00007FF704F791CA]
+	(No symbol) [0x00007FF704F80B98]
+	(No symbol) [0x00007FF704F83BCC]
+	(No symbol) [0x00007FF704F83C9F]
+	(No symbol) [0x00007FF704FC96A6]
+	(No symbol) [0x00007FF704FF7C2A]
+	(No symbol) [0x00007FF704FC22D6]
+	(No symbol) [0x00007FF704FF7E40]
+	(No symbol) [0x00007FF7050202F3]
+	(No symbol) [0x00007FF704FF7A03]
+	(No symbol) [0x00007FF704FC06D0]
+	(No symbol) [0x00007FF704FC1983]
+	GetHandleVerifier [0x00007FF7054E67CD+3579853]
+	GetHandleVerifier [0x00007FF7054FD1D2+3672530]
+	GetHandleVerifier [0x00007FF7054F2153+3627347]
+	GetHandleVerifier [0x00007FF70525092A+868650]
+	(No symbol) [0x00007FF7050F2FFF]
+	(No symbol) [0x00007FF7050EF4A4]
+	(No symbol) [0x00007FF7050EF646]
+	(No symbol) [0x00007FF7050DEAA9]
+	BaseThreadInitThunk [0x00007FFD9432E8D7+23]
+	RtlUserThreadStart [0x00007FFD94DDBF2C+44]
+
+2025-03-31 18:46:34,680 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:48:34,695 - ERROR - Unexpected error in fetch_market_prices: HTTPConnectionPool(host='localhost', port=63485): Read timed out. (read timeout=120)
+2025-03-31 18:49:27,095 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:51:27,098 - ERROR - Unexpected error in fetch_market_prices: HTTPConnectionPool(host='localhost', port=63540): Read timed out. (read timeout=120)
+2025-03-31 18:53:20,376 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:53:25,131 - INFO - Popup closed
+2025-03-31 18:53:25,131 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 18:53:25,294 - INFO - Selected commodity: Tomato
+2025-03-31 18:53:27,387 - INFO - Selected state: Tamil Nadu
+2025-03-31 18:53:43,367 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 18:53:43,434 - INFO - Selected market: Tiruchengode
+2025-03-31 18:53:45,591 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 18:53:47,710 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 18:53:47,710 - INFO - Waiting 2 seconds before form submission
+2025-03-31 18:53:49,811 - INFO - Form submitted
+2025-03-31 18:53:55,514 - INFO - Price table loaded
+2025-03-31 18:54:02,121 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 18:54:02,141 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 18:54:02,165 - INFO - Raw data points after dropna: 282
+2025-03-31 18:54:02,216 - INFO - Processed data points after resampling: 40
+2025-03-31 18:54:02,216 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 18:54:02,593 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-03-31 18:57:33,807 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:59:33,811 - ERROR - Attempt 1 failed: Message: timeout: Timed out receiving message from renderer: 119.267
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF705484C25+3179557]
+	(No symbol) [0x00007FF7050E88A0]
+	(No symbol) [0x00007FF704F791CA]
+	(No symbol) [0x00007FF704F6664C]
+	(No symbol) [0x00007FF704F6633A]
+	(No symbol) [0x00007FF704F63EC2]
+	(No symbol) [0x00007FF704F6498F]
+	(No symbol) [0x00007FF704F7350E]
+	(No symbol) [0x00007FF704F899B3]
+	(No symbol) [0x00007FF704F90AEA]
+	(No symbol) [0x00007FF704F650FD]
+	(No symbol) [0x00007FF704F896E5]
+	(No symbol) [0x00007FF705020667]
+	(No symbol) [0x00007FF704FF7A03]
+	(No symbol) [0x00007FF704FC06D0]
+	(No symbol) [0x00007FF704FC1983]
+	GetHandleVerifier [0x00007FF7054E67CD+3579853]
+	GetHandleVerifier [0x00007FF7054FD1D2+3672530]
+	GetHandleVerifier [0x00007FF7054F2153+3627347]
+	GetHandleVerifier [0x00007FF70525092A+868650]
+	(No symbol) [0x00007FF7050F2FFF]
+	(No symbol) [0x00007FF7050EF4A4]
+	(No symbol) [0x00007FF7050EF646]
+	(No symbol) [0x00007FF7050DEAA9]
+	BaseThreadInitThunk [0x00007FFD9432E8D7+23]
+	RtlUserThreadStart [0x00007FFD94DDBF2C+44]
+
+2025-03-31 18:59:42,484 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 18:59:47,009 - INFO - Popup closed
+2025-03-31 18:59:47,010 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 18:59:47,091 - INFO - Selected commodity: Tomato
+2025-03-31 18:59:49,148 - INFO - Selected state: Tamil Nadu
+2025-03-31 18:59:57,204 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 18:59:57,253 - INFO - Selected market: Tiruchengode
+2025-03-31 18:59:59,409 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:00:01,574 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:00:01,575 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:00:03,684 - INFO - Form submitted
+2025-03-31 19:00:09,496 - INFO - Price table loaded
+2025-03-31 19:00:12,030 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 19:00:12,036 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 19:00:12,041 - INFO - Raw data points after dropna: 282
+2025-03-31 19:00:12,049 - INFO - Processed data points after resampling: 40
+2025-03-31 19:00:12,049 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 19:00:12,599 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-03-31 19:13:11,103 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:13:16,659 - INFO - Popup closed
+2025-03-31 19:13:16,659 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:13:16,734 - INFO - Selected commodity: Tomato
+2025-03-31 19:13:18,791 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:13:23,953 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 19:13:23,997 - INFO - Selected market: Tiruchengode
+2025-03-31 19:13:26,125 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:13:28,232 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:13:28,232 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:13:30,304 - INFO - Form submitted
+2025-03-31 19:13:36,040 - INFO - Price table loaded
+2025-03-31 19:13:50,704 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 19:13:50,708 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 19:13:50,709 - INFO - Raw data points after dropna: 282
+2025-03-31 19:13:50,712 - INFO - Processed data points after resampling: 40
+2025-03-31 19:13:50,712 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 19:13:51,178 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-03-31 19:31:03,473 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:31:11,862 - INFO - Popup closed
+2025-03-31 19:31:11,862 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:31:11,951 - INFO - Selected commodity: Tomato
+2025-03-31 19:31:14,029 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:31:23,256 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 19:31:23,305 - INFO - Selected market: Tiruchengode
+2025-03-31 19:31:25,481 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:31:27,603 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:31:27,604 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:31:29,699 - INFO - Form submitted
+2025-03-31 19:31:36,120 - INFO - Price table loaded
+2025-03-31 19:31:38,431 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 19:31:38,435 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 19:31:38,437 - INFO - Raw data points after dropna: 282
+2025-03-31 19:31:38,440 - INFO - Processed data points after resampling: 40
+2025-03-31 19:31:38,440 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 19:31:38,502 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-03-31 19:38:14,150 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:38:22,541 - INFO - Popup closed
+2025-03-31 19:38:22,541 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:38:22,621 - INFO - Selected commodity: Tomato
+2025-03-31 19:38:24,681 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:38:31,239 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 19:38:31,290 - INFO - Selected market: Tiruchengode
+2025-03-31 19:38:33,441 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:38:35,569 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:38:35,569 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:38:37,674 - INFO - Form submitted
+2025-03-31 19:38:41,736 - INFO - Price table loaded
+2025-03-31 19:38:52,359 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 19:38:52,363 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 19:38:52,366 - INFO - Raw data points after dropna: 282
+2025-03-31 19:38:52,368 - INFO - Processed data points after resampling: 40
+2025-03-31 19:38:52,368 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 19:38:52,401 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-03-31 19:38:59,826 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:39:04,993 - INFO - Popup closed
+2025-03-31 19:39:04,993 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:39:05,108 - INFO - Selected commodity: Tomato
+2025-03-31 19:39:07,190 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:39:13,084 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 19:39:13,135 - INFO - Selected market: Tiruchengode
+2025-03-31 19:39:15,277 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:39:17,381 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:39:17,382 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:39:19,528 - INFO - Form submitted
+2025-03-31 19:39:23,040 - INFO - Price table loaded
+2025-03-31 19:39:25,358 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 19:39:25,361 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 19:39:25,363 - INFO - Raw data points after dropna: 282
+2025-03-31 19:39:25,366 - INFO - Processed data points after resampling: 40
+2025-03-31 19:39:25,366 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 19:39:25,404 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-03-31 19:42:48,928 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:42:57,489 - INFO - Popup closed
+2025-03-31 19:42:57,489 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:42:57,565 - INFO - Selected commodity: Tomato
+2025-03-31 19:42:59,618 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:43:02,785 - ERROR - Attempt 1 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF705484C25+3179557]
+	(No symbol) [0x00007FF7050E88A0]
+	(No symbol) [0x00007FF704F791CA]
+	(No symbol) [0x00007FF704F51753]
+	(No symbol) [0x00007FF704FFF83E]
+	(No symbol) [0x00007FF70501FBE2]
+	(No symbol) [0x00007FF704FF7A03]
+	(No symbol) [0x00007FF704FC06D0]
+	(No symbol) [0x00007FF704FC1983]
+	GetHandleVerifier [0x00007FF7054E67CD+3579853]
+	GetHandleVerifier [0x00007FF7054FD1D2+3672530]
+	GetHandleVerifier [0x00007FF7054F2153+3627347]
+	GetHandleVerifier [0x00007FF70525092A+868650]
+	(No symbol) [0x00007FF7050F2FFF]
+	(No symbol) [0x00007FF7050EF4A4]
+	(No symbol) [0x00007FF7050EF646]
+	(No symbol) [0x00007FF7050DEAA9]
+	BaseThreadInitThunk [0x00007FFD9432E8D7+23]
+	RtlUserThreadStart [0x00007FFD94DDBF2C+44]
+
+2025-03-31 19:43:11,732 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:43:16,927 - INFO - Popup closed
+2025-03-31 19:43:16,927 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:43:17,119 - INFO - Selected commodity: Tomato
+2025-03-31 19:43:19,301 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:43:26,605 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 19:43:26,662 - INFO - Selected market: Tiruchengode
+2025-03-31 19:43:28,815 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:43:30,938 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:43:30,938 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:43:32,941 - ERROR - Attempt 2 failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF705484C25+3179557]
+	(No symbol) [0x00007FF7050E88A0]
+	(No symbol) [0x00007FF704F791CA]
+	(No symbol) [0x00007FF704F64F85]
+	(No symbol) [0x00007FF704F89F94]
+	(No symbol) [0x00007FF704FFF9DF]
+	(No symbol) [0x00007FF70501FBE2]
+	(No symbol) [0x00007FF704FF7A03]
+	(No symbol) [0x00007FF704FC06D0]
+	(No symbol) [0x00007FF704FC1983]
+	GetHandleVerifier [0x00007FF7054E67CD+3579853]
+	GetHandleVerifier [0x00007FF7054FD1D2+3672530]
+	GetHandleVerifier [0x00007FF7054F2153+3627347]
+	GetHandleVerifier [0x00007FF70525092A+868650]
+	(No symbol) [0x00007FF7050F2FFF]
+	(No symbol) [0x00007FF7050EF4A4]
+	(No symbol) [0x00007FF7050EF646]
+	(No symbol) [0x00007FF7050DEAA9]
+	BaseThreadInitThunk [0x00007FFD9432E8D7+23]
+	RtlUserThreadStart [0x00007FFD94DDBF2C+44]
+
+2025-03-31 19:43:41,351 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-03-31 19:43:45,922 - INFO - Popup closed
+2025-03-31 19:43:45,922 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-03-31 19:43:46,012 - INFO - Selected commodity: Tomato
+2025-03-31 19:43:48,076 - INFO - Selected state: Tamil Nadu
+2025-03-31 19:44:00,444 - INFO - Available markets for Tamil Nadu: ['--Select--', 'Acharapakkam', 'AJattihalli(Uzhavar Sandhai )', 'Alangeyam', 'Alangudi', 'Alangudi(Uzhavar Sandhai )', 'Ambasamudram', 'Ambasamudram(Uzhavar Sandhai )', 'Ambattur(Uzhavar Sandhai )', 'Ambur', 'Ammapet(Uzhavar Sandhai )', 'Ammoor', 'Anaimalai', 'Anaiyur(Uzhavar Sandhai )', 'Ananthapuram', 'Andimadom', 'Andipatti(Uzhavar Sandhai )', 'Anna nagar(Uzhavar Sandhai )', 'Anna Nagar(Uzhavar Sandhai )', 'Annur', 'Anthiyur', 'Appta', 'Arani', 'Arani(Uzhavar Sandhai )', 'Aranthangi', 'Aranthangi(Uzhavar Sandhai )', 'Arcot', 'Arcot(Uzhavar Sandhai )', 'Ariyalur Market', 'Ariyalur(Uzhavar Sandhai)', 'Arkonam', 'Aruppukottai', 'Aruppukottai(Uzhavar Sandhai )', 'Arur', 'Athur(Uzhavar Sandhai )', 'Attayampatti(Uzhavar Sandhai )', 'Attur', 'Avallapalli(Uzhavar Sandhai )', 'Avalpoonthurai', 'Avalurpet', 'Bargur', 'Batlagundu(Uzhavar Sandhai )', 'Bhavani', 'Bhuvanagiri', 'Bodinayakanur(Uzhavar Sandhai )', 'Bodinayakkanur', 'Boothapadi', 'Budalur', 'Chengalpattu', 'Chengalpet(Uzhavar Sandhai )', 'Chengam', 'Chengam(Uzhavar Sandhai )', 'Chengeri', 'Chennai', 'Chethupattu', 'Cheyyar', 'Cheyyar(Uzhavar Sandhai )', 'Chidambaram', 'Chidambaram(Uzhavar Sandhai )', 'Chinnalapatti(Uzhavar Sandhai )', 'Chinnamanur', 'Chinnamanur(Uzhavar Sandhai )', 'Chinnasalem', 'Chithode', 'Chokkikulam(Uzhavar Sandhai )', 'Coimbatore', 'Coonoor(Uzhavar Sandhai )', 'Cuddalore', 'Cuddalore(Uzhavar Sandhai )', 'Cumbum', 'Denkanikottai', 'Denkanikottai(Uzhavar Sandhai )', 'Desur', 'Devakottai', 'Devakottai (Uzhavar Sandhai )', 'Devaram(Uzhavar Sandhai )', 'Dharampuri', 'Dharapuram', 'Dharapuram(Uzhavar Sandhai )', 'Dharmapuri(Uzhavar Sandhai )', 'Dindigul', 'Dindigul(Uzhavar Sandhai )', 'Dusi', 'Eathamozhi', 'Edapadi (Uzhavar Sandhai )', 'Edappadi', 'Elampillai(Uzhavar Sandhai )', 'Elumathur', 'Erode', 'Gandarvakottai(Uzhavar Sandhai )', 'Gangavalli', 'Gingee', 'Gingee(Uzhavar Sandhai )', 'Gobichettipalayam', 'Gobichettipalayam(Uzhavar Sandhai )', 'Gopalpatti', 'Gopichetty', 'Gudalur(Uzhavar Sandhai )', 'Gudiyatham', 'Gudiyatham(Uzhavar Sandhai )', 'Guduvancheri(Uzhavar Sandhai )', 'Gummidipoondy', 'Harur(Uzhavar Sandhai )', 'Hasthampatti(Uzhavar Sandhai )', 'Hosur', 'Hosur(Uzhavar Sandhai )', 'Jalagandapuram(Uzhavar Sandhai )', 'Jameenrayapettai(Uzhavar Sandhai )', 'Jayamkondam', 'Jeyankondam (Uzhavar Sandhai )', 'Kadaiyampatti', 'Kahithapattarai(Uzhavar Sandhai )', 'Kalavai', 'Kallakurichi', 'Kallakurichi(Uzhavar Sandhai )', 'Kalliakavillai', 'Kambainallur', 'Kambam(Uzhavar Sandhai )', 'Kamuthi', 'Kamuthi(Uzhavar Sandhai )', 'Kanayakumari', 'Kancheepuram(Uzhavar Sandhai )', 'Kanchipuram', 'Kandiyaperi(Uzhavar Sandhai )', 'Kangayam(Uzhavar Sandhai )', 'Kangeyam', 'Karaikudi', 'Karaikudi(Uzhavar Sandhai )', 'Karamadai', 'Karambakkudi(Uzhavar Sandhai )', 'Kariyapatti(Uzhavar Sandhai )', 'Karumanturai', 'Karur', 'Karur(Uzhavar Sandhai )', 'Katpadi', 'Katpadi (Uzhavar Sandhai )', 'Katpadi(Uzhavar Santhai)', 'Kattumaner koil', 'Kaveripakkam', 'Kaveripattinam(Uzhavar Sandhai )', 'Kavunthapadi', 'Keelkattalai(Uzhavar Sandhai )', 'Keelpennathur(Uzhavar Sandhai )', 'Kianthukadavu', 'Kilpennathur', 'Kilvelur', 'KKNagar(Uzhavar Sandhai )', 'Kodaikkanal(Uzhavar Sandhai )', 'Kodumudi', 'Kolathur', 'Konganapuram', 'Konganapuram (Agri. Coop. Marketing Society)', 'Koradacheri', 'Kothagiri(Uzhavar Sandhai )', 'Kovilpatti', 'Kovilpatti(Uzhavar Sandhai )', 'Koyambedu', 'Krishnagiri', 'Krishnagiri(Uzhavar Sandhai )', 'Kudavasal', 'Kulasekaram', 'Kulithalai(Uzhavar Sandhai )', 'Kumarapalayam(Uzhavar Sandhai )', 'Kumbakonam', 'Kumbakonam (Uzhavar Sandhai )', 'Kundrathur(Uzhavar Sandhai )', 'Kunnathur', 'Kurichi(Uzhavar Sandhai )', 'Kurinchipadi', 'Kuttulam', 'Lalgudi', 'Lalgudi(Uzhavar Sandhai )', 'Madathukulam', 'Madhuranthagam(Uzhavar Sandhai )', 'Madurai', 'Maduranthagam', 'Mailaduthurai', 'Manachanallur', 'Manachanallur(Uzhavar Sandhai )', 'Manalurpet', 'Manalurpettai', 'Manamadurai', 'Manapparai', 'Manapparai(Uzhavar Sandhai )', 'Mangala Mamandur', 'Mannargudi', 'Mannargudi I(Uzhavar Sandhai )', 'Mannargudi II(Uzhavar Sandhai )', 'Mannarkudi', 'Marakkanam', 'Mayiladuthurai(Uzhavar Sandhai )', 'Maylampadi', 'Mecheri', 'Medavakkam(Uzhavar Sandhai )', 'Melapalayam(Uzhavar Sandhai )', 'Melur', 'Melur(Uzhavar Sandhai )', 'Mettupalayam(Uzhavar Sandhai )', 'Mettur(Uzhavar Sandhai )', 'Mohanur(Uzhavar Sandhai )', 'Monday Market', 'Moolanur', 'Moongilthuraipattu', 'Musiri(Uzhavar Sandhai )', 'Muthupettai(Uzhavar Sandhai )', 'Muthur', 'Myladi(Uzhavar Sandhai )', 'Mylampadi', 'Nagapattinam', 'Nagapattinam(Uzhavar Sandhai )', 'Namagiripettai', 'Namakkal', 'Namakkal(Agri. Coop. Marketing Society)', 'Namakkal(Uzhavar Sandhai )', 'Nambiyur', 'Nanganallur(Uzhavar Sandhai )', 'Naravarikuppam(Uzhavar Sandhai )', 'Natham', 'Natrampalli(Uzhavar Sandhai )', 'Nazerethpet', 'Needamangalam(Uzhavar Sandhai )', 'Negamam', 'NGO Colony(Uzhavar Sandhai )', 'Nilgiris', 'Oddunchairum', 'Omalur', 'Orathanadu', 'Padappai(Uzhavar Sandhai )', 'Palacode(Uzhavar Sandhai )', 'Palakode', 'Palanganatham(Uzhavar Sandhai )', 'Palani', 'Palani(Uzhavar Sandhai )', 'Palayamkottai(Uzhavar Sandhai )', 'Palladam', 'Palladam(Uzhavar Sandhai )', 'Pallapatti (Uzhavar Sandhai )', 'Pallavaram(Uzhavar Sandhai )', 'Pallipattu', 'Panruti', 'Panruti(Uzhavar Sandhai )', 'Papanasam', 'Papanasam(Uzhavar Sandhai )', 'Papparapatti', 'Pappireddipatti', 'Paramakudi', 'Paramakudi(Uzhavar Sandhai )', 'Paramathivelur(Uzhavar Sandhai )', 'Paruthipattu(Uzhavar Sandhai )', 'Pattukottai', 'Pattukottai(Uzhavar Sandhai )', 'Pennagaram', 'Pennagaram(Uzhavar Sandhai )', 'Perambakkam(Uzhavar Sandhai )', 'Perambalur(Uzhavar Sandhai )', 'Periyakulam(Uzhavar Sandhai )', 'Periyar Nagar(Uzhavar Sandhai )', 'Pernamallur', 'Perundurai', 'Perundurai(Uzhavar Sandhai )', 'Pethappampatti', 'Pochampalli', 'Pollachi', 'Pollachi(Uzhavar Sandhai )', 'Polur', 'Polur(Thiruvannamalai)', 'Polur(Uzhavar Sandhai )', 'Pongalur', 'Ponner', 'Poonthottam', 'Pudukottai', 'Pudukottai(Uzhavar Sandhai )', 'Pudupalayam', 'Punchaipuliyampatti', 'Punchaipuliyampatti', 'Rajapalayam', 'Rajapalayam(Uzhavar Sandhai )', 'Rajasingamangalam', 'Ramanathapuram', 'Ramanathapuram(phase 3)', 'Ramanathapuram(Uzhavar Sandhai )', 'Ranipettai(Uzhavar Sandhai )', 'Rasipuram', 'Rasipuram(Agri. Coop. Marketing Society)', 'Rasipuram(Uzhavar Sandhai )', 'Redhills', 'RSPuram(Uzhavar Sandhai )', 'Salem', 'Sampath Nagar(Uzhavar Sandhai )', 'Sangarapuram', 'Sankagiri', 'Sankarankoil(Uzhavar Sandhai )', 'Sankarankovil', 'Sankarapuram(Uzhavar Sandhai )', 'Sathiyamagalam(Uzhavar Sandhai )', 'Sathur', 'Sathur(Uzhavar Sandhai )', 'Sathyamangalam', 'Sembanarkoil', 'Senjeri', 'Sethiathoppu', 'Sevur', 'Shrimushnam', 'Singampunari(Uzhavar Sandhai )', 'Singampuneri', 'Singanallur(Uzhavar Sandhai )', 'Sirkali', 'Sirkali(Uzhavar Sandhai )', 'Sivagangai', 'Sivagangai (Uzhavar Sandhai )', 'Sivagiri', 'Sivakasi(Uzhavar Sandhai )', 'Sooramangalam(Uzhavar Sandhai )', 'Srivilliputhur(Uzhavar Sandhai )', 'Sulur', 'Sulur(Uzhavar Sandhai )', 'Sundarapuram(Uzhavar Sandhai )', 'Sunguvarchatram', 'Sunguvarchatram(Uzhavar Sandhai )', 'Tamarainagar(Uzhavar Sandhai )', 'Tenkasi(Uzhavar Sandhai )', 'Thalaivasal', 'Thalavadi', 'Thalavadi(Uzhavar Sandhai )', 'Thalavaipuram(Uzhavar Sandhai )', 'Thammampati', 'Thammampatti (Uzhavar Sandhai )', 'Thanjavur', 'Thanjavur(Uzhavar Sandhai )', 'Thathakapatti(Uzhavar Sandhai )', 'Thellar', 'Theni', 'Theni(Uzhavar Sandhai )', 'Thenkasi', 'Thimiri', 'Thirukalukundram(Uzhavar Sandhai )', 'Thirukkalukundram', 'Thirukovilur', 'Thirumangalam', 'Thirumangalam(Uzhavar Sandhai )', 'Thirupathur', 'Thirupoondi', 'Thiruppananthal', 'Thiruppur', 'Thiruvannamalai', 'Thiruvarur', 'Thiruvennainallur', 'Thiruverumbur(Uzhavar Sandhai )', 'Thiryagadurgam', 'Thoduvetty', 'Thondamuthur', 'Thoothukudi', 'Thuraiyur', 'Thuraiyur(Uzhavar Sandhai )', 'Tindivanam', 'Tindivanam(Uzhavar Sandhai )', 'Tiruchengode', 'Tiruchengode(Agri. Coop. Marketing Society)', 'Tiruchengode(Uzhavar Sandhai )', 'Tirukattupalli(Uzhavar Sandhai )', 'Tirunelvali', 'Tirupathur(Uzhavar Sandhai )', 'Tirupatthur(Uzhavar Sandhai )', 'Tiruppur (North) (Uzhavar Sandhai )', 'Tiruppur (South) (Uzhavar Sandhai )', 'Tiruthani(Uzhavar Sandhai )', 'Tiruthuraipoondi', 'Tiruthuraipoondi(Uzhavar Sandhai )', 'Tiruttani', 'Tiruvallur(Uzhavar Sandhai )', 'Tiruvannamalai(Uzhavar Sandhai )', 'Tiruvarur(Uzhavar Sandhai )', 'Tiruvellore', 'Tiruvennainallur', 'Tittakudi', 'Trichy', 'Tukkapettai', 'Tuticorin(Uzhavar Sandhai )', 'Udhagamandalam(Uzhavar Sandhai )', 'Udumalpet', 'Udumalpet(Uzhavar Sandhai )', 'Ulundurpettai', 'Ulundurpettai(Uzhavar Sandhai )', 'Usilampatti(Uzhavar Sandhai )', 'Usilampatty', 'Uthangarai', 'Uthiramerur', 'Uthukottai', 'Vadakanandhal', 'Vadalur(Uzhavar Sandhai )', 'Vadamadurai', 'Vadaseri', 'Vadaseri(Uzhavar Sandhai )', 'Vadavalli(Uzhavar Sandhai )', 'Vaduvur', 'Valangaiman', 'Valangaiman(Uzhavar Sandhai )', 'Valathi', 'Vallam', 'Vanapuram', 'Vandavasi', 'Vandavasi(Uzhavar Sandhai )', 'Vaniyambadi', 'Vaniyampadi(Uzhavar Sandhai )', 'Vathlagundu', 'Vazhapadi', 'Vedachandur', 'Vedaranyam', 'Vedasanthur(Uzhavar Sandhai )', 'Velayuthampalayam(Uzhavar Sandhai )', 'Vellakkoil', 'Vellakovil', 'Vellankoil', 'Vellore', 'Vellore(Uzhavar Sandhai )', 'Velur', 'Vengamedu(Uzhavar Sandhai )', 'Veppanthattai(Uzhavar Sandhai )', 'Vettavalam', 'Vikkiravandi', 'Vilathikulam', 'Villupuram', 'Villupuram(Uzhavar Sandhai )', 'Viralimalai(Uzhavar Sandhai )', 'Virudhachalam', 'Virudhunagar', 'Virudhunagar(Uzhavar Sandhai )', 'Viruthachalam(Uzhavar Sandhai )', 'Z[State Total]']
+2025-03-31 19:44:00,515 - INFO - Selected market: Tiruchengode
+2025-03-31 19:44:02,736 - INFO - Set From Date: 30-Mar-2022
+2025-03-31 19:44:04,913 - INFO - Set To Date: 29-Mar-2025
+2025-03-31 19:44:04,913 - INFO - Waiting 2 seconds before form submission
+2025-03-31 19:44:07,101 - INFO - Form submitted
+2025-03-31 19:44:12,208 - INFO - Price table loaded
+2025-03-31 19:44:18,889 - INFO - Completed data fetch for Tiruchengode. Records collected: 282
+2025-03-31 19:44:18,899 - INFO - Data saved to Tomato_Tamil Nadu_Tiruchengode_past3years.csv. Total records: 282
+2025-03-31 19:44:18,907 - INFO - Raw data points after dropna: 282
+2025-03-31 19:44:18,921 - INFO - Processed data points after resampling: 40
+2025-03-31 19:44:18,921 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
+2025-03-31 19:44:19,480 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-04-02 22:13:55,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 22:13:55,777 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 22:13:55,798 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 22:13:57,375 - WARNING -  * Debugger is active!
+2025-04-02 22:13:57,376 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 22:14:21,855 - INFO - 127.0.0.1 - - [02/Apr/2025 22:14:21] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-02 22:14:22,708 - INFO - 127.0.0.1 - - [02/Apr/2025 22:14:22] "POST /login HTTP/1.1" 200 -
+2025-04-02 22:15:52,364 - INFO - 127.0.0.1 - - [02/Apr/2025 22:15:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-02 22:15:52,474 - INFO - 127.0.0.1 - - [02/Apr/2025 22:15:52] "POST /predict HTTP/1.1" 200 -
+2025-04-02 22:16:36,677 - INFO - 127.0.0.1 - - [02/Apr/2025 22:16:36] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:16:41,873 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:16:48,834 - INFO - Popup closed
+2025-04-02 22:16:48,834 - INFO - Fetching data for Orange in Tamil Nadu, Madhuranthagam(Uzhavar Sandhai )
+2025-04-02 22:17:31,441 - INFO - 127.0.0.1 - - [02/Apr/2025 22:17:31] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:19:36,799 - INFO - 127.0.0.1 - - [02/Apr/2025 22:19:36] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:19:38,569 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:19:49,882 - INFO - Popup closed
+2025-04-02 22:19:49,882 - INFO - Fetching data for Orange in Tamil Nadu, Usilampatti(Uzhavar Sandhai )
+2025-04-02 22:20:16,186 - INFO - 127.0.0.1 - - [02/Apr/2025 22:20:16] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:23:04,477 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:04] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-02 22:23:04,527 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:04] "POST /predict HTTP/1.1" 200 -
+2025-04-02 22:23:23,212 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:23] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:23:24,904 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:23:34,197 - INFO - Popup closed
+2025-04-02 22:23:34,197 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatti(Uzhavar Sandhai )
+2025-04-02 22:23:53,978 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:53] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:24:52,610 - INFO - 127.0.0.1 - - [02/Apr/2025 22:24:52] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:24:54,341 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:25:08,789 - INFO - Popup closed
+2025-04-02 22:25:08,789 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 22:25:36,943 - INFO - 127.0.0.1 - - [02/Apr/2025 22:25:36] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:26:28,033 - INFO - 127.0.0.1 - - [02/Apr/2025 22:26:28] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:26:29,730 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:27:06,637 - INFO - Popup closed
+2025-04-02 22:27:06,637 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-04-02 22:28:08,199 - INFO - 127.0.0.1 - - [02/Apr/2025 22:28:08] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:29:43,956 - INFO - 127.0.0.1 - - [02/Apr/2025 22:29:43] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:29:45,685 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:29:54,617 - INFO - Popup closed
+2025-04-02 22:29:54,617 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-04-02 22:30:22,258 - INFO - 127.0.0.1 - - [02/Apr/2025 22:30:22] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:30:22,571 - INFO - 127.0.0.1 - - [02/Apr/2025 22:30:22] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:30:24,189 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:30:44,011 - INFO - Popup closed
+2025-04-02 22:30:44,011 - INFO - Fetching data for Maize in Tamil Nadu, Tiruchengode
+2025-04-02 22:31:15,553 - INFO - 127.0.0.1 - - [02/Apr/2025 22:31:15] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:34:25,337 - INFO - 127.0.0.1 - - [02/Apr/2025 22:34:25] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:34:27,053 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:34:33,815 - INFO - Popup closed
+2025-04-02 22:34:33,815 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 22:34:55,535 - INFO - 127.0.0.1 - - [02/Apr/2025 22:34:55] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:43:32,205 - INFO - 127.0.0.1 - - [02/Apr/2025 22:43:32] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-02 22:43:32,233 - INFO - 127.0.0.1 - - [02/Apr/2025 22:43:32] "POST /predict HTTP/1.1" 200 -
+2025-04-02 22:43:45,904 - INFO - 127.0.0.1 - - [02/Apr/2025 22:43:45] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:43:47,693 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:43:55,321 - INFO - Popup closed
+2025-04-02 22:43:55,321 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 22:44:15,169 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:15] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:44:15,486 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:15] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:44:17,110 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:44:29,271 - INFO - Popup closed
+2025-04-02 22:44:29,271 - INFO - Fetching data for Plum in Rajasthan, 27-A
+2025-04-02 22:44:54,580 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:54] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:44:54,590 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:44:56,301 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:45:05,613 - INFO - Popup closed
+2025-04-02 22:45:05,613 - INFO - Fetching data for Pear(Marasebu) in Rajasthan, 27-A
+2025-04-02 22:45:27,788 - INFO - 127.0.0.1 - - [02/Apr/2025 22:45:27] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:45:27,799 - INFO - 127.0.0.1 - - [02/Apr/2025 22:45:27] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:45:29,511 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:45:34,680 - INFO - Popup closed
+2025-04-02 22:45:34,680 - INFO - Fetching data for Cherry in Rajasthan, 27-A
+2025-04-02 22:45:52,968 - INFO - 127.0.0.1 - - [02/Apr/2025 22:45:52] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:49:02,636 - INFO - 127.0.0.1 - - [02/Apr/2025 22:49:02] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:49:04,374 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:49:09,642 - INFO - Popup closed
+2025-04-02 22:49:09,642 - INFO - Fetching data for Apple in Rajasthan, Ajmer(F&V)
+2025-04-02 22:49:45,796 - INFO - 127.0.0.1 - - [02/Apr/2025 22:49:45] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:49:45,801 - INFO - 127.0.0.1 - - [02/Apr/2025 22:49:45] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:49:47,533 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:49:52,363 - INFO - Popup closed
+2025-04-02 22:49:52,363 - INFO - Fetching data for Plum in Rajasthan, Ajmer(F&V)
+2025-04-02 22:50:23,600 - INFO - 127.0.0.1 - - [02/Apr/2025 22:50:23] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:50:23,924 - INFO - 127.0.0.1 - - [02/Apr/2025 22:50:23] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:50:25,657 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:50:29,026 - INFO - Popup closed
+2025-04-02 22:50:29,026 - INFO - Fetching data for Pear(Marasebu) in Rajasthan, Ajmer(F&V)
+2025-04-02 22:50:38,593 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\train.py', reloading
+2025-04-02 22:50:38,600 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\database\\db_connection.py', reloading
+2025-04-02 22:50:39,697 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 22:50:43,783 - WARNING -  * Debugger is active!
+2025-04-02 22:50:43,786 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 22:50:43,817 - INFO - 127.0.0.1 - - [02/Apr/2025 22:50:43] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:50:45,564 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:50:55,948 - INFO - Popup closed
+2025-04-02 22:50:55,949 - INFO - Fetching data for Cherry in Rajasthan, Ajmer(F&V)
+2025-04-02 22:51:17,342 - INFO - 127.0.0.1 - - [02/Apr/2025 22:51:17] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:09:08,227 - INFO - 127.0.0.1 - - [02/Apr/2025 23:09:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:09:10,143 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:09:14,268 - INFO - Popup closed
+2025-04-02 23:09:14,268 - INFO - Fetching data for Apple in Rajasthan, Ajmer(F&V)
+2025-04-02 23:10:08,594 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:08] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:10:08,919 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:10:10,785 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:10:20,796 - INFO - Popup closed
+2025-04-02 23:10:20,797 - INFO - Fetching data for Plum in Rajasthan, Ajmer(F&V)
+2025-04-02 23:10:41,413 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:41] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:10:41,420 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:41] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:10:43,251 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:10:47,443 - INFO - Popup closed
+2025-04-02 23:10:47,443 - INFO - Fetching data for Pear(Marasebu) in Rajasthan, Ajmer(F&V)
+2025-04-02 23:11:06,073 - INFO - 127.0.0.1 - - [02/Apr/2025 23:11:06] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-02 23:11:06,080 - INFO - 127.0.0.1 - - [02/Apr/2025 23:11:06] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:11:07,902 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:11:12,260 - INFO - Popup closed
+2025-04-02 23:11:12,261 - INFO - Fetching data for Cherry in Rajasthan, Ajmer(F&V)
+2025-04-02 23:11:32,422 - INFO - 127.0.0.1 - - [02/Apr/2025 23:11:32] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:14:41,610 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-02 23:14:41,613 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_bcrypt.py', reloading
+2025-04-02 23:14:41,627 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-02 23:14:41,628 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-02 23:14:41,629 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-04-02 23:14:41,630 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-02 23:14:41,631 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-02 23:14:41,631 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-04-02 23:14:41,632 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-02 23:14:41,632 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-04-02 23:14:41,633 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-02 23:14:41,634 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-02 23:14:41,634 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-02 23:14:41,635 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-04-02 23:14:41,635 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2025-04-02 23:14:41,636 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\common\\exceptions.py', reloading
+2025-04-02 23:14:41,657 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-04-02 23:14:41,658 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-04-02 23:14:41,663 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\__init__.py', reloading
+2025-04-02 23:14:41,664 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-02 23:14:41,665 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-02 23:14:41,665 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-02 23:14:41,666 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\__init__.py', reloading
+2025-04-02 23:14:41,667 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\__init__.py', reloading
+2025-04-02 23:14:41,667 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2025-04-02 23:14:41,668 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\ui.py', reloading
+2025-04-02 23:14:41,668 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py', reloading
+2025-04-02 23:14:41,668 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-04-02 23:14:41,669 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-04-02 23:14:41,669 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py', reloading
+2025-04-02 23:14:41,670 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py', reloading
+2025-04-02 23:14:41,683 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\errors.py', reloading
+2025-04-02 23:14:41,684 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\pooling.py', reloading
+2025-04-02 23:14:41,684 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\abstracts.py', reloading
+2025-04-02 23:14:41,687 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\types.py', reloading
+2025-04-02 23:14:41,687 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py', reloading
+2025-04-02 23:14:41,693 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\select.py', reloading
+2025-04-02 23:14:41,693 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py', reloading
+2025-04-02 23:14:41,694 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py', reloading
+2025-04-02 23:14:41,694 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\types.py', reloading
+2025-04-02 23:14:41,694 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py', reloading
+2025-04-02 23:14:41,695 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py', reloading
+2025-04-02 23:14:41,695 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py', reloading
+2025-04-02 23:14:41,696 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py', reloading
+2025-04-02 23:14:41,696 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py', reloading
+2025-04-02 23:14:41,697 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py', reloading
+2025-04-02 23:14:41,697 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py', reloading
+2025-04-02 23:14:41,697 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py', reloading
+2025-04-02 23:14:41,698 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py', reloading
+2025-04-02 23:14:41,698 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py', reloading
+2025-04-02 23:14:41,698 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py', reloading
+2025-04-02 23:14:41,700 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py', reloading
+2025-04-02 23:14:41,714 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-04-02 23:14:41,715 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py', reloading
+2025-04-02 23:14:41,715 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+2025-04-02 23:14:41,715 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-04-02 23:14:41,716 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+2025-04-02 23:14:41,727 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-02 23:14:41,727 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\arima\\model.py', reloading
+2025-04-02 23:14:41,727 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tools\\tools.py', reloading
+2025-04-02 23:14:41,728 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tools\\data.py', reloading
+2025-04-02 23:14:41,728 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\wrapper.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\initialization.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\mlemodel.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\tools.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tools\\numdiff.py', reloading
+2025-04-02 23:14:41,730 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\data.py', reloading
+2025-04-02 23:14:41,730 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\base\\tsa_model.py', reloading
+2025-04-02 23:14:41,731 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\simulation_smoother.py', reloading
+2025-04-02 23:14:41,731 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\kalman_smoother.py', reloading
+2025-04-02 23:14:41,731 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\kalman_filter.py', reloading
+2025-04-02 23:14:41,732 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\__init__.py', reloading
+2025-04-02 23:14:41,732 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\model.py', reloading
+2025-04-02 23:14:41,732 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\compat\\python.py', reloading
+2025-04-02 23:14:41,733 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\optimizer.py', reloading
+2025-04-02 23:14:41,733 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\representation.py', reloading
+2025-04-02 23:14:41,734 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\linalg\\blas.py', reloading
+2025-04-02 23:14:42,127 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:14:45,597 - WARNING -  * Debugger is active!
+2025-04-02 23:14:45,599 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:22:26,759 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:22:26,778 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:22:26,779 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:22:27,231 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:22:30,256 - WARNING -  * Debugger is active!
+2025-04-02 23:22:30,259 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:23:08,111 - INFO - 127.0.0.1 - - [02/Apr/2025 23:23:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:23:14,665 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:23:27,250 - INFO - 127.0.0.1 - - [02/Apr/2025 23:23:27] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:23:30,110 - INFO - Popup closed
+2025-04-02 23:23:30,110 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 23:23:40,640 - ERROR - Attempt 1 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:23:49,396 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:23:54,294 - INFO - 127.0.0.1 - - [02/Apr/2025 23:23:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:23:56,103 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:24:14,724 - INFO - Popup closed
+2025-04-02 23:24:14,724 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 23:24:29,456 - ERROR - Attempt 2 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:24:34,862 - INFO - Popup closed
+2025-04-02 23:24:34,862 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:24:38,395 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:24:45,566 - ERROR - Attempt 1 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:24:54,529 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:25:05,263 - INFO - Popup closed
+2025-04-02 23:25:05,264 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 23:25:20,064 - ERROR - Attempt 3 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:25:20,327 - INFO - Popup closed
+2025-04-02 23:25:20,327 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:25:22,405 - ERROR - All retries failed
+2025-04-02 23:25:26,501 - INFO - 127.0.0.1 - - [02/Apr/2025 23:25:26] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:25:34,839 - ERROR - Attempt 2 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:25:43,503 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:26:02,738 - INFO - Popup closed
+2025-04-02 23:26:02,738 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:26:05,055 - ERROR - Attempt 3 failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7200B98]
+	(No symbol) [0x00007FF7A7203BCC]
+	(No symbol) [0x00007FF7A7203C9F]
+	(No symbol) [0x00007FF7A7249B36]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:26:07,293 - ERROR - All retries failed
+2025-04-02 23:26:15,435 - INFO - 127.0.0.1 - - [02/Apr/2025 23:26:15] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:26:39,680 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:39,700 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:40,355 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:26:42,772 - WARNING -  * Debugger is active!
+2025-04-02 23:26:42,773 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:26:47,057 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:47,057 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:47,076 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:47,077 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:48,031 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:26:50,591 - WARNING -  * Debugger is active!
+2025-04-02 23:26:50,593 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:26:52,078 - INFO - 127.0.0.1 - - [02/Apr/2025 23:26:52] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:26:53,890 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:26:59,608 - INFO - Popup closed
+2025-04-02 23:26:59,608 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:27:22,583 - INFO - 127.0.0.1 - - [02/Apr/2025 23:27:22] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:28:05,771 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:05,788 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:05,790 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:06,334 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:28:09,080 - WARNING -  * Debugger is active!
+2025-04-02 23:28:09,082 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:28:19,298 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:19,316 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:19,317 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:20,372 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:28:22,515 - WARNING -  * Debugger is active!
+2025-04-02 23:28:22,517 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:28:37,061 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:37,080 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:37,082 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:37,761 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:28:39,879 - WARNING -  * Debugger is active!
+2025-04-02 23:28:39,882 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:28:39,902 - INFO - 127.0.0.1 - - [02/Apr/2025 23:28:39] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:28:41,386 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:28:47,358 - INFO - Popup closed
+2025-04-02 23:28:47,359 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:29:48,686 - INFO - 127.0.0.1 - - [02/Apr/2025 23:29:48] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:34:54,732 - INFO - 127.0.0.1 - - [02/Apr/2025 23:34:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:34:56,602 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:35:11,263 - INFO - Popup closed
+2025-04-02 23:35:11,263 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:36:16,837 - INFO - 127.0.0.1 - - [02/Apr/2025 23:36:16] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:38:13,961 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 07:38:13,962 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 07:38:13,993 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 07:38:15,905 - WARNING -  * Debugger is active!
+2025-04-03 07:38:15,926 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 07:40:16,028 - INFO - 127.0.0.1 - - [03/Apr/2025 07:40:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 07:40:16,123 - INFO - 127.0.0.1 - - [03/Apr/2025 07:40:16] "POST /predict HTTP/1.1" 200 -
+2025-04-03 07:40:39,486 - INFO - 127.0.0.1 - - [03/Apr/2025 07:40:39] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:40:43,683 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:40:47,569 - INFO - Popup closed
+2025-04-03 07:40:47,569 - INFO - Fetching data for Papaya in Karnataka, Bagepalli
+2025-04-03 07:41:06,982 - INFO - 127.0.0.1 - - [03/Apr/2025 07:41:06] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 07:41:06,990 - INFO - 127.0.0.1 - - [03/Apr/2025 07:41:06] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:41:08,731 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:41:12,558 - INFO - Popup closed
+2025-04-03 07:41:12,558 - INFO - Fetching data for Pineapple in Karnataka, Bagepalli
+2025-04-03 07:41:32,571 - INFO - 127.0.0.1 - - [03/Apr/2025 07:41:32] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 07:41:32,885 - INFO - 127.0.0.1 - - [03/Apr/2025 07:41:32] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:41:34,595 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:41:38,431 - INFO - Popup closed
+2025-04-03 07:41:38,431 - INFO - Fetching data for Custard Apple(Sharifa) in Karnataka, Bagepalli
+2025-04-03 07:41:38,539 - ERROR - Attempt 1 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 07:41:47,111 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:41:51,680 - INFO - Popup closed
+2025-04-03 07:41:51,680 - INFO - Fetching data for Custard Apple(Sharifa) in Karnataka, Bagepalli
+2025-04-03 07:41:55,913 - ERROR - Attempt 2 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 07:42:04,566 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:42:08,564 - INFO - Popup closed
+2025-04-03 07:42:08,564 - INFO - Fetching data for Custard Apple(Sharifa) in Karnataka, Bagepalli
+2025-04-03 07:42:12,776 - ERROR - Attempt 3 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 07:42:16,006 - ERROR - All retries failed
+2025-04-03 07:42:20,063 - INFO - 127.0.0.1 - - [03/Apr/2025 07:42:20] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 07:42:20,070 - INFO - 127.0.0.1 - - [03/Apr/2025 07:42:20] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:42:21,870 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:42:25,484 - INFO - Popup closed
+2025-04-03 07:42:25,484 - INFO - Fetching data for Banana in Karnataka, Bagepalli
+2025-04-03 07:42:45,144 - INFO - 127.0.0.1 - - [03/Apr/2025 07:42:45] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 07:53:30,748 - INFO - 127.0.0.1 - - [03/Apr/2025 07:53:30] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:53:32,608 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:53:36,536 - INFO - Popup closed
+2025-04-03 07:53:36,536 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-03 07:53:56,997 - INFO - 127.0.0.1 - - [03/Apr/2025 07:53:56] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:57:46,645 - INFO - 127.0.0.1 - - [03/Apr/2025 07:57:46] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:57:48,437 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:57:53,415 - INFO - Popup closed
+2025-04-03 07:57:53,415 - INFO - Fetching data for Papaya in Tamil Nadu, Sivakasi(Uzhavar Sandhai )
+2025-04-03 07:58:12,775 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-03 07:58:12,877 - INFO - 127.0.0.1 - - [03/Apr/2025 07:58:12] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:58:12,886 - INFO - 127.0.0.1 - - [03/Apr/2025 07:58:12] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:58:13,785 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 07:58:16,091 - WARNING -  * Debugger is active!
+2025-04-03 07:58:16,093 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 07:58:17,591 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:58:21,199 - INFO - Popup closed
+2025-04-03 07:58:21,200 - INFO - Fetching data for Custard Apple(Sharifa) in Tamil Nadu, Sivakasi(Uzhavar Sandhai )
+2025-04-03 07:58:21,311 - ERROR - Attempt 1 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 07:58:29,918 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:58:34,536 - INFO - Popup closed
+2025-04-03 07:58:34,536 - INFO - Fetching data for Custard Apple(Sharifa) in Tamil Nadu, Sivakasi(Uzhavar Sandhai )
+2025-04-03 07:58:38,748 - ERROR - Attempt 2 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 07:58:47,382 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:58:52,123 - INFO - Popup closed
+2025-04-03 07:58:52,123 - INFO - Fetching data for Custard Apple(Sharifa) in Tamil Nadu, Sivakasi(Uzhavar Sandhai )
+2025-04-03 07:58:56,322 - ERROR - Attempt 3 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 07:58:58,474 - ERROR - All retries failed
+2025-04-03 07:59:02,592 - INFO - 127.0.0.1 - - [03/Apr/2025 07:59:02] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 07:59:02,604 - INFO - 127.0.0.1 - - [03/Apr/2025 07:59:02] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 07:59:04,385 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 07:59:08,542 - INFO - Popup closed
+2025-04-03 07:59:08,542 - INFO - Fetching data for Banana in Tamil Nadu, Sivakasi(Uzhavar Sandhai )
+2025-04-03 07:59:28,690 - INFO - 127.0.0.1 - - [03/Apr/2025 07:59:28] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:38:18,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:38:18,581 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:38:18,615 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 10:38:20,891 - WARNING -  * Debugger is active!
+2025-04-03 10:38:20,894 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 10:40:00,248 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:00] "OPTIONS /signup HTTP/1.1" 200 -
+2025-04-03 10:40:01,138 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:01] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2025-04-03 10:40:03,259 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:03] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 10:40:03,975 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:03] "POST /login HTTP/1.1" 200 -
+2025-04-03 10:41:10,321 - INFO - 127.0.0.1 - - [03/Apr/2025 10:41:10] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 10:41:10,406 - INFO - 127.0.0.1 - - [03/Apr/2025 10:41:10] "POST /predict HTTP/1.1" 200 -
+2025-04-03 10:41:40,753 - INFO - 127.0.0.1 - - [03/Apr/2025 10:41:40] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:41:44,611 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:41:49,147 - INFO - Popup closed
+2025-04-03 10:41:49,147 - INFO - Fetching data for Banana in Tamil Nadu, Tiruchengode(Uzhavar Sandhai )
+2025-04-03 10:42:11,344 - INFO - 127.0.0.1 - - [03/Apr/2025 10:42:11] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:42:11,349 - INFO - 127.0.0.1 - - [03/Apr/2025 10:42:11] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:42:13,249 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:42:18,186 - INFO - Popup closed
+2025-04-03 10:42:18,187 - INFO - Fetching data for Turmeric in Tamil Nadu, Tiruchengode(Uzhavar Sandhai )
+2025-04-03 10:42:38,654 - INFO - 127.0.0.1 - - [03/Apr/2025 10:42:38] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:42:38,966 - INFO - 127.0.0.1 - - [03/Apr/2025 10:42:38] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:42:40,987 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:42:45,327 - INFO - Popup closed
+2025-04-03 10:42:45,327 - INFO - Fetching data for Pineapple in Tamil Nadu, Tiruchengode(Uzhavar Sandhai )
+2025-04-03 10:43:05,484 - INFO - 127.0.0.1 - - [03/Apr/2025 10:43:05] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:43:05,796 - INFO - 127.0.0.1 - - [03/Apr/2025 10:43:05] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:43:07,869 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:43:11,663 - INFO - Popup closed
+2025-04-03 10:43:11,663 - INFO - Fetching data for Papaya in Tamil Nadu, Tiruchengode(Uzhavar Sandhai )
+2025-04-03 10:43:30,759 - INFO - 127.0.0.1 - - [03/Apr/2025 10:43:30] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:43:54,719 - INFO - 127.0.0.1 - - [03/Apr/2025 10:43:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:43:56,459 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:44:01,976 - INFO - Popup closed
+2025-04-03 10:44:01,976 - INFO - Fetching data for Banana in Tamil Nadu, Usilampatty
+2025-04-03 10:44:22,501 - INFO - 127.0.0.1 - - [03/Apr/2025 10:44:22] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:44:22,505 - INFO - 127.0.0.1 - - [03/Apr/2025 10:44:22] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:44:24,224 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:44:33,845 - INFO - Popup closed
+2025-04-03 10:44:33,846 - INFO - Fetching data for Turmeric in Tamil Nadu, Usilampatty
+2025-04-03 10:44:53,200 - INFO - 127.0.0.1 - - [03/Apr/2025 10:44:53] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:44:53,514 - INFO - 127.0.0.1 - - [03/Apr/2025 10:44:53] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:44:55,188 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:45:02,226 - INFO - Popup closed
+2025-04-03 10:45:02,226 - INFO - Fetching data for Pineapple in Tamil Nadu, Usilampatty
+2025-04-03 10:45:22,388 - INFO - 127.0.0.1 - - [03/Apr/2025 10:45:22] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:45:22,701 - INFO - 127.0.0.1 - - [03/Apr/2025 10:45:22] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:45:24,393 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:45:29,192 - INFO - Popup closed
+2025-04-03 10:45:29,192 - INFO - Fetching data for Papaya in Tamil Nadu, Usilampatty
+2025-04-03 10:45:48,641 - INFO - 127.0.0.1 - - [03/Apr/2025 10:45:48] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 10:46:17,013 - INFO - 127.0.0.1 - - [03/Apr/2025 10:46:17] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:46:18,784 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 10:46:22,243 - INFO - Popup closed
+2025-04-03 10:46:22,243 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-03 10:46:40,233 - INFO - 127.0.0.1 - - [03/Apr/2025 10:46:40] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 10:52:26,750 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-03 10:52:26,777 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-03 10:52:26,825 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-03 10:52:26,845 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-03 10:52:26,880 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-03 10:52:26,901 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-03 10:52:26,913 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-03 10:52:26,925 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-03 10:52:26,948 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-03 10:52:26,963 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-03 10:52:26,974 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-03 10:52:27,008 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-03 10:52:27,114 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\__init__.py', reloading
+2025-04-03 10:52:27,130 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_bcrypt.py', reloading
+2025-04-03 10:52:27,168 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\__init__.py', reloading
+2025-04-03 10:52:27,176 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\ui.py', reloading
+2025-04-03 10:52:27,186 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\select.py', reloading
+2025-04-03 10:52:27,200 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py', reloading
+2025-04-03 10:52:27,212 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py', reloading
+2025-04-03 10:52:27,220 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py', reloading
+2025-04-03 10:52:27,520 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 10:52:42,036 - WARNING -  * Debugger is active!
+2025-04-03 10:52:42,038 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 10:52:42,116 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+2025-04-03 10:52:42,130 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\matplotlib_inline\\__init__.py', reloading
+2025-04-03 10:52:42,145 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mdurl\\__init__.py', reloading
+2025-04-03 10:52:42,158 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mdurl\\_decode.py', reloading
+2025-04-03 10:52:42,166 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mdurl\\_encode.py', reloading
+2025-04-03 10:52:42,178 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mdurl\\_format.py', reloading
+2025-04-03 10:52:42,186 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mdurl\\_parse.py', reloading
+2025-04-03 10:52:42,201 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mdurl\\_url.py', reloading
+2025-04-03 10:52:42,212 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\__init__.py', reloading
+2025-04-03 10:52:42,222 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\markdown.py', reloading
+2025-04-03 10:52:42,234 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\core.py', reloading
+2025-04-03 10:52:42,248 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\block_parser.py', reloading
+2025-04-03 10:52:42,258 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\inline_parser.py', reloading
+2025-04-03 10:52:42,275 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\renderers\\html.py', reloading
+2025-04-03 10:52:42,284 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mistune\\util.py', reloading
+2025-04-03 10:52:42,292 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\ml_dtypes\\__init__.py', reloading
+2025-04-03 10:52:42,302 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\ml_dtypes\\_finfo.py', reloading
+2025-04-03 10:52:42,311 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\ml_dtypes\\_iinfo.py', reloading
+2025-04-03 10:52:42,346 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+2025-04-03 10:52:42,354 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+2025-04-03 10:52:42,367 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\namex\\__init__.py', reloading
+2025-04-03 10:52:42,376 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\__init__.py', reloading
+2025-04-03 10:52:42,399 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\dataframe.py', reloading
+2025-04-03 10:52:42,412 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\dtypes.py', reloading
+2025-04-03 10:52:42,430 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\expr.py', reloading
+2025-04-03 10:52:42,447 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\functions.py', reloading
+2025-04-03 10:52:42,455 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\schema.py', reloading
+2025-04-03 10:52:42,469 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\series.py', reloading
+2025-04-03 10:52:42,482 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\translate.py', reloading
+2025-04-03 10:52:42,493 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\narwhals\\utils.py', reloading
+2025-04-03 10:52:42,508 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbclient\\__init__.py', reloading
+2025-04-03 10:52:42,520 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbclient\\_version.py', reloading
+2025-04-03 10:52:42,533 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbclient\\client.py', reloading
+2025-04-03 10:52:42,550 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\__init__.py', reloading
+2025-04-03 10:52:42,569 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\_version.py', reloading
+2025-04-03 10:52:42,579 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\__init__.py', reloading
+2025-04-03 10:52:42,590 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\asciidoc.py', reloading
+2025-04-03 10:52:42,601 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\exporter.py', reloading
+2025-04-03 10:52:42,613 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\base.py', reloading
+2025-04-03 10:52:42,626 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\html.py', reloading
+2025-04-03 10:52:42,650 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\latex.py', reloading
+2025-04-03 10:52:42,660 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\markdown.py', reloading
+2025-04-03 10:52:42,669 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\notebook.py', reloading
+2025-04-03 10:52:42,681 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\pdf.py', reloading
+2025-04-03 10:52:42,696 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\python.py', reloading
+2025-04-03 10:52:42,706 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\qtpdf.py', reloading
+2025-04-03 10:52:42,721 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\qtpng.py', reloading
+2025-04-03 10:52:42,730 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\rst.py', reloading
+2025-04-03 10:52:42,742 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\script.py', reloading
+2025-04-03 10:52:42,752 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\slides.py', reloading
+2025-04-03 10:52:42,757 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-03 10:52:42,758 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-03 10:52:42,758 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-03 10:52:42,765 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\templateexporter.py', reloading
+2025-04-03 10:52:42,778 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbconvert\\exporters\\webpdf.py', reloading
+2025-04-03 10:52:42,792 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\__init__.py', reloading
+2025-04-03 10:52:42,802 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\_version.py', reloading
+2025-04-03 10:52:42,817 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\sentinel.py', reloading
+2025-04-03 10:52:42,828 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\converter.py', reloading
+2025-04-03 10:52:42,837 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\notebooknode.py', reloading
+2025-04-03 10:52:42,846 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\v4\\__init__.py', reloading
+2025-04-03 10:52:42,859 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\v4\\nbbase.py', reloading
+2025-04-03 10:52:42,871 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\validator.py', reloading
+2025-04-03 10:52:42,884 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\json_compat.py', reloading
+2025-04-03 10:52:42,896 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nltk\\__init__.py', reloading
+2025-04-03 10:52:42,907 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\notebook\\__init__.py', reloading
+2025-04-03 10:52:42,925 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\notebook_shim\\__init__.py', reloading
+2025-04-03 10:52:42,934 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\__init__.py', reloading
+2025-04-03 10:52:42,965 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+2025-04-03 10:52:42,977 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+2025-04-03 10:52:42,988 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+2025-04-03 10:52:42,998 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+2025-04-03 10:52:43,013 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+2025-04-03 10:52:43,023 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+2025-04-03 10:52:43,032 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+2025-04-03 10:52:43,043 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+2025-04-03 10:52:43,063 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+2025-04-03 10:52:43,258 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 10:53:01,215 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:53:01,215 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:53:01,222 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 10:53:02,749 - WARNING -  * Debugger is active!
+2025-04-03 10:53:02,751 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:04:15,954 - INFO - 127.0.0.1 - - [03/Apr/2025 11:04:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 11:04:15,989 - INFO - 127.0.0.1 - - [03/Apr/2025 11:04:15] "POST /predict HTTP/1.1" 200 -
+2025-04-03 11:13:24,056 - INFO - 127.0.0.1 - - [03/Apr/2025 11:13:24] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 11:13:24,073 - INFO - 127.0.0.1 - - [03/Apr/2025 11:13:24] "POST /predict HTTP/1.1" 200 -
+2025-04-03 11:14:54,500 - INFO - 127.0.0.1 - - [03/Apr/2025 11:14:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 11:14:54,552 - INFO - 127.0.0.1 - - [03/Apr/2025 11:14:54] "POST /predict HTTP/1.1" 200 -
+2025-04-03 11:21:22,476 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:22] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:21:24,591 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:21:43,115 - INFO - Popup closed
+2025-04-03 11:21:43,116 - INFO - Fetching data for Pomegranate in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:22:15,515 - INFO - 127.0.0.1 - - [03/Apr/2025 11:22:15] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:22:15,518 - INFO - 127.0.0.1 - - [03/Apr/2025 11:22:15] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:22:17,216 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:22:28,146 - INFO - Popup closed
+2025-04-03 11:22:28,146 - INFO - Fetching data for Custard Apple(Sharifa) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:22:28,211 - ERROR - Attempt 1 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 11:22:36,714 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:22:44,044 - INFO - Popup closed
+2025-04-03 11:22:44,044 - INFO - Fetching data for Custard Apple(Sharifa) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:22:48,164 - ERROR - Attempt 2 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 11:22:56,656 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:23:06,384 - INFO - Popup closed
+2025-04-03 11:23:06,384 - INFO - Fetching data for Custard Apple(Sharifa) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:23:10,519 - ERROR - Attempt 3 failed: Message: Could not locate element with visible text: Custard Apple(Sharifa); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-04-03 11:23:12,649 - ERROR - All retries failed
+2025-04-03 11:23:16,740 - INFO - 127.0.0.1 - - [03/Apr/2025 11:23:16] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 11:23:17,086 - INFO - 127.0.0.1 - - [03/Apr/2025 11:23:17] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:23:18,717 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:23:26,960 - INFO - Popup closed
+2025-04-03 11:23:26,960 - INFO - Fetching data for Fig(Anjura/Anjeer) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:24:00,350 - INFO - 127.0.0.1 - - [03/Apr/2025 11:24:00] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 11:24:00,375 - INFO - 127.0.0.1 - - [03/Apr/2025 11:24:00] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:24:02,089 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:24:11,259 - INFO - Popup closed
+2025-04-03 11:24:11,259 - INFO - Fetching data for Guava in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:24:36,698 - INFO - 127.0.0.1 - - [03/Apr/2025 11:24:36] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:26:05,496 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\req.py', reloading
+2025-04-03 11:26:06,256 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 11:26:08,280 - WARNING -  * Debugger is active!
+2025-04-03 11:26:08,282 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:29:30,815 - INFO - 127.0.0.1 - - [03/Apr/2025 11:29:30] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:29:32,673 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:29:36,670 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:29:41,191 - INFO - Popup closed
+2025-04-03 11:29:41,191 - INFO - Fetching data for Pomegranate in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:29:46,391 - INFO - Popup closed
+2025-04-03 11:29:46,391 - INFO - Fetching data for Fig(Anjura/Anjeer) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:30:08,367 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:08] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:30:08,721 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:30:09,902 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:09] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 11:30:10,428 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:30:26,117 - INFO - Popup closed
+2025-04-03 11:30:26,118 - INFO - Fetching data for Pomegranate in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:30:48,028 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:48] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:30:48,034 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:48] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:30:49,771 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:30:54,788 - INFO - Popup closed
+2025-04-03 11:30:54,788 - INFO - Fetching data for Fig(Anjura/Anjeer) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:31:16,115 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:16] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 11:31:16,119 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:16] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:31:17,857 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:31:23,693 - INFO - Popup closed
+2025-04-03 11:31:23,693 - INFO - Fetching data for Guava in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:31:43,647 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:43] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:31:43,651 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:43] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:31:45,371 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:31:50,014 - INFO - Popup closed
+2025-04-03 11:31:50,014 - INFO - Fetching data for Custard Apple (Sharifa) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:32:11,699 - INFO - 127.0.0.1 - - [03/Apr/2025 11:32:11] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:40:51,782 - INFO - 127.0.0.1 - - [03/Apr/2025 11:40:51] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:40:53,756 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:41:07,667 - INFO - Popup closed
+2025-04-03 11:41:07,667 - INFO - Fetching data for Pomegranate in Tamil Nadu, Pollachi
+2025-04-03 11:41:28,788 - INFO - 127.0.0.1 - - [03/Apr/2025 11:41:28] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 11:41:28,794 - INFO - 127.0.0.1 - - [03/Apr/2025 11:41:28] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:41:30,509 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:41:34,040 - INFO - Popup closed
+2025-04-03 11:41:34,041 - INFO - Fetching data for Fig(Anjura/Anjeer) in Tamil Nadu, Pollachi
+2025-04-03 11:41:51,709 - INFO - 127.0.0.1 - - [03/Apr/2025 11:41:51] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 11:41:51,715 - INFO - 127.0.0.1 - - [03/Apr/2025 11:41:51] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:41:54,848 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:41:59,552 - INFO - Popup closed
+2025-04-03 11:41:59,552 - INFO - Fetching data for Guava in Tamil Nadu, Pollachi
+2025-04-03 11:42:18,792 - INFO - 127.0.0.1 - - [03/Apr/2025 11:42:18] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 11:42:18,815 - INFO - 127.0.0.1 - - [03/Apr/2025 11:42:18] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:42:20,440 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:42:23,739 - INFO - Popup closed
+2025-04-03 11:42:23,739 - INFO - Fetching data for Custard Apple (Sharifa) in Tamil Nadu, Pollachi
+2025-04-03 11:42:43,791 - INFO - 127.0.0.1 - - [03/Apr/2025 11:42:43] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-03 11:45:43,341 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\train.py', reloading
+2025-04-03 11:45:43,345 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\database\\db_connection.py', reloading
+2025-04-03 11:45:43,673 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\API.py', reloading
+2025-04-03 11:45:44,354 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 11:45:46,912 - WARNING -  * Debugger is active!
+2025-04-03 11:45:46,914 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:46:48,302 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+2025-04-03 11:46:48,528 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py', reloading
+2025-04-03 11:46:49,300 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 11:46:50,960 - WARNING -  * Debugger is active!
+2025-04-03 11:46:50,962 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:53:35,413 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 11:53:35,413 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 11:53:35,433 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 11:53:37,968 - WARNING -  * Debugger is active!
+2025-04-03 11:53:37,970 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:55:57,792 - INFO - 127.0.0.1 - - [03/Apr/2025 11:55:57] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 11:55:58,848 - INFO - 127.0.0.1 - - [03/Apr/2025 11:55:58] "POST /login HTTP/1.1" 200 -
+2025-04-03 11:56:50,531 - INFO - 127.0.0.1 - - [03/Apr/2025 11:56:50] "[33mGET /main.d78e5e7bfa9b5a2a022f.hot-update.json HTTP/1.1[0m" 404 -
+2025-04-03 11:57:49,778 - INFO - 127.0.0.1 - - [03/Apr/2025 11:57:49] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 11:57:49,845 - INFO - 127.0.0.1 - - [03/Apr/2025 11:57:49] "POST /predict HTTP/1.1" 200 -
+2025-04-03 11:58:25,328 - INFO - 127.0.0.1 - - [03/Apr/2025 11:58:25] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:58:28,077 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:58:34,252 - INFO - Popup closed
+2025-04-03 11:58:34,252 - INFO - Fetching data for Pomegranate in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:58:56,894 - INFO - 127.0.0.1 - - [03/Apr/2025 11:58:56] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:58:56,901 - INFO - 127.0.0.1 - - [03/Apr/2025 11:58:56] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:58:58,783 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:59:32,125 - INFO - Popup closed
+2025-04-03 11:59:32,126 - INFO - Fetching data for Guava in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:59:56,335 - INFO - 127.0.0.1 - - [03/Apr/2025 11:59:56] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:59:56,648 - INFO - 127.0.0.1 - - [03/Apr/2025 11:59:56] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:59:58,524 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 12:00:16,250 - INFO - Popup closed
+2025-04-03 12:00:16,250 - INFO - Fetching data for Fig(Anjura/Anjeer) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 12:00:39,254 - INFO - 127.0.0.1 - - [03/Apr/2025 12:00:39] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 12:00:39,259 - INFO - 127.0.0.1 - - [03/Apr/2025 12:00:39] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 12:00:41,114 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 12:00:46,788 - INFO - Popup closed
+2025-04-03 12:00:46,788 - INFO - Fetching data for Custard Apple (Sharifa) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 12:01:14,360 - INFO - 127.0.0.1 - - [03/Apr/2025 12:01:14] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 12:03:46,839 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+2025-04-03 12:03:46,861 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+2025-04-03 12:03:47,499 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 12:03:49,711 - WARNING -  * Debugger is active!
+2025-04-03 12:03:49,713 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 12:10:51,506 - INFO - 127.0.0.1 - - [03/Apr/2025 12:10:51] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:10:52,329 - INFO - 127.0.0.1 - - [03/Apr/2025 12:10:52] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:11:46,548 - INFO - 127.0.0.1 - - [03/Apr/2025 12:11:46] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:11:47,421 - INFO - 127.0.0.1 - - [03/Apr/2025 12:11:47] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:12:39,965 - INFO - 127.0.0.1 - - [03/Apr/2025 12:12:39] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:12:40,860 - INFO - 127.0.0.1 - - [03/Apr/2025 12:12:40] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:25:43,199 - INFO - 127.0.0.1 - - [03/Apr/2025 12:25:43] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:25:43,989 - INFO - 127.0.0.1 - - [03/Apr/2025 12:25:43] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:35:07,195 - INFO - 127.0.0.1 - - [03/Apr/2025 12:35:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 12:35:07,288 - INFO - 127.0.0.1 - - [03/Apr/2025 12:35:07] "POST /predict HTTP/1.1" 200 -
+2025-04-03 12:45:06,284 - INFO - 127.0.0.1 - - [03/Apr/2025 12:45:06] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 12:45:06,318 - INFO - 127.0.0.1 - - [03/Apr/2025 12:45:06] "POST /predict HTTP/1.1" 200 -
+2025-04-03 14:20:31,739 - INFO - 127.0.0.1 - - [03/Apr/2025 14:20:31] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 14:20:32,274 - INFO - 127.0.0.1 - - [03/Apr/2025 14:20:32] "POST /login HTTP/1.1" 200 -
+2025-04-03 14:22:01,262 - INFO - 127.0.0.1 - - [03/Apr/2025 14:22:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 14:22:01,311 - INFO - 127.0.0.1 - - [03/Apr/2025 14:22:01] "POST /predict HTTP/1.1" 200 -
+2025-04-03 14:23:32,937 - INFO - 127.0.0.1 - - [03/Apr/2025 14:23:32] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 14:24:04,081 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 14:25:09,893 - INFO - Popup closed
+2025-04-03 14:25:09,893 - INFO - Fetching data for Papaya in Tamil Nadu, Kumbakonam
+2025-04-03 14:27:45,791 - ERROR - Attempt 1 failed: Message: timeout: Timed out receiving message from renderer: 120.000
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FE404C25+3179557]
+	(No symbol) [0x00007FF6FE0688A0]
+	(No symbol) [0x00007FF6FDEF91CA]
+	(No symbol) [0x00007FF6FDEE664C]
+	(No symbol) [0x00007FF6FDEE633A]
+	(No symbol) [0x00007FF6FDEE3EC2]
+	(No symbol) [0x00007FF6FDEE498F]
+	(No symbol) [0x00007FF6FDEF350E]
+	(No symbol) [0x00007FF6FDF099B3]
+	(No symbol) [0x00007FF6FDF10AEA]
+	(No symbol) [0x00007FF6FDEE50FD]
+	(No symbol) [0x00007FF6FDF096E5]
+	(No symbol) [0x00007FF6FDFA01D5]
+	(No symbol) [0x00007FF6FDF77A03]
+	(No symbol) [0x00007FF6FDF406D0]
+	(No symbol) [0x00007FF6FDF41983]
+	GetHandleVerifier [0x00007FF6FE4667CD+3579853]
+	GetHandleVerifier [0x00007FF6FE47D1D2+3672530]
+	GetHandleVerifier [0x00007FF6FE472153+3627347]
+	GetHandleVerifier [0x00007FF6FE1D092A+868650]
+	(No symbol) [0x00007FF6FE072FFF]
+	(No symbol) [0x00007FF6FE06F4A4]
+	(No symbol) [0x00007FF6FE06F646]
+	(No symbol) [0x00007FF6FE05EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-03 14:27:54,703 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 14:28:36,002 - ERROR - Attempt 2 failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FE404C25+3179557]
+	(No symbol) [0x00007FF6FE0688A0]
+	(No symbol) [0x00007FF6FDEF91CA]
+	(No symbol) [0x00007FF6FDEE664C]
+	(No symbol) [0x00007FF6FDEE633A]
+	(No symbol) [0x00007FF6FDEE3EC2]
+	(No symbol) [0x00007FF6FDEE47AC]
+	(No symbol) [0x00007FF6FDEFD01A]
+	(No symbol) [0x00007FF6FDFA11AE]
+	(No symbol) [0x00007FF6FDF77C2A]
+	(No symbol) [0x00007FF6FDFA02F3]
+	(No symbol) [0x00007FF6FDF77A03]
+	(No symbol) [0x00007FF6FDF406D0]
+	(No symbol) [0x00007FF6FDF41983]
+	GetHandleVerifier [0x00007FF6FE4667CD+3579853]
+	GetHandleVerifier [0x00007FF6FE47D1D2+3672530]
+	GetHandleVerifier [0x00007FF6FE472153+3627347]
+	GetHandleVerifier [0x00007FF6FE1D092A+868650]
+	(No symbol) [0x00007FF6FE072FFF]
+	(No symbol) [0x00007FF6FE06F4A4]
+	(No symbol) [0x00007FF6FE06F646]
+	(No symbol) [0x00007FF6FE05EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-03 15:30:33,784 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 15:30:40,510 - INFO - Popup closed
+2025-04-03 15:30:40,510 - INFO - Fetching data for Papaya in Tamil Nadu, Kumbakonam
+2025-04-03 15:31:12,509 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-03 15:31:14,355 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 15:31:16,563 - WARNING -  * Debugger is active!
+2025-04-03 15:31:16,566 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 18:07:27,038 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 18:07:27,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 18:07:27,088 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 18:07:29,282 - WARNING -  * Debugger is active!
+2025-04-03 18:07:29,302 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 18:08:49,108 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:49] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 18:08:49,226 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:49] "POST /predict HTTP/1.1" 200 -
+2025-04-03 18:09:04,670 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:04] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:09:08,694 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 18:09:13,074 - INFO - Popup closed
+2025-04-03 18:09:13,074 - INFO - Fetching data for Papaya in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 18:09:34,824 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:34] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:09:34,832 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:34] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:09:36,721 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 18:09:42,794 - INFO - Popup closed
+2025-04-03 18:09:42,794 - INFO - Fetching data for Pineapple in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 18:10:03,481 - INFO - 127.0.0.1 - - [03/Apr/2025 18:10:03] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 18:10:03,491 - INFO - 127.0.0.1 - - [03/Apr/2025 18:10:03] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:10:05,365 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 18:10:08,609 - INFO - Popup closed
+2025-04-03 18:10:08,609 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 18:10:31,595 - INFO - 127.0.0.1 - - [03/Apr/2025 18:10:31] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:11:55,374 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\arima\\model.py', reloading
+2025-04-03 18:11:55,426 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\__init__.py', reloading
+2025-04-03 18:11:55,459 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-03 18:11:55,590 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\mlemodel.py', reloading
+2025-04-03 18:11:55,712 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\base\\tsa_model.py', reloading
+2025-04-03 18:11:55,762 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\model.py', reloading
+2025-04-03 18:11:56,608 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 18:12:00,335 - WARNING -  * Debugger is active!
+2025-04-03 18:12:00,342 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 18:12:00,458 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py', reloading
+2025-04-03 18:12:00,510 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py', reloading
+2025-04-03 18:12:00,545 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py', reloading
+2025-04-03 18:12:01,597 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 18:12:03,641 - WARNING -  * Debugger is active!
+2025-04-03 18:12:03,644 - INFO -  * Debugger PIN: 129-038-908
+2025-04-23 14:39:01,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 14:39:01,536 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 14:39:01,563 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-23 14:39:03,181 - WARNING -  * Debugger is active!
+2025-04-23 14:39:03,184 - INFO -  * Debugger PIN: 129-038-908
+2025-04-23 14:40:20,699 - INFO - 127.0.0.1 - - [23/Apr/2025 14:40:20] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-23 14:40:20,886 - INFO - 127.0.0.1 - - [23/Apr/2025 14:40:20] "POST /predict HTTP/1.1" 200 -
+2025-04-23 14:40:47,218 - INFO - 127.0.0.1 - - [23/Apr/2025 14:40:47] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:40:55,393 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:41:14,065 - INFO - No popup found or failed to close
+2025-04-23 14:41:14,065 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:41:40,282 - INFO - 127.0.0.1 - - [23/Apr/2025 14:41:40] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:41:40,300 - INFO - 127.0.0.1 - - [23/Apr/2025 14:41:40] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:41:42,135 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:41:56,245 - INFO - No popup found or failed to close
+2025-04-23 14:41:56,246 - INFO - Fetching data for Pineapple in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:42:20,676 - INFO - 127.0.0.1 - - [23/Apr/2025 14:42:20] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-23 14:42:21,017 - INFO - 127.0.0.1 - - [23/Apr/2025 14:42:21] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:42:22,753 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:42:36,367 - INFO - No popup found or failed to close
+2025-04-23 14:42:36,368 - INFO - Fetching data for Turmeric in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:43:04,069 - INFO - 127.0.0.1 - - [23/Apr/2025 14:43:04] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-23 14:43:04,092 - INFO - 127.0.0.1 - - [23/Apr/2025 14:43:04] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:43:05,854 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:43:31,049 - INFO - No popup found or failed to close
+2025-04-23 14:43:31,049 - INFO - Fetching data for Papaya in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:43:55,331 - INFO - 127.0.0.1 - - [23/Apr/2025 14:43:55] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-24 09:27:12,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:27:12,157 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 09:27:12,201 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-24 09:27:14,648 - WARNING -  * Debugger is active!
+2025-04-24 09:27:14,669 - INFO -  * Debugger PIN: 129-038-908
+2025-04-24 11:29:01,827 - INFO - 127.0.0.1 - - [24/Apr/2025 11:29:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-24 11:29:02,060 - INFO - 127.0.0.1 - - [24/Apr/2025 11:29:02] "POST /predict HTTP/1.1" 200 -
+2025-04-24 11:29:32,608 - INFO - 127.0.0.1 - - [24/Apr/2025 11:29:32] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:29:54,795 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:30:18,316 - INFO - No popup found or failed to close
+2025-04-24 11:30:18,316 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:30:23,077 - ERROR - Attempt 1 failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF771C6EFA5+77893]
+	GetHandleVerifier [0x00007FF771C6F000+77984]
+	(No symbol) [0x00007FF771A391BA]
+	(No symbol) [0x00007FF771A40AEC]
+	(No symbol) [0x00007FF771A43B5C]
+	(No symbol) [0x00007FF771A43C2F]
+	(No symbol) [0x00007FF771A9132D]
+	(No symbol) [0x00007FF771A844CC]
+	(No symbol) [0x00007FF771AB712A]
+	(No symbol) [0x00007FF771A819E6]
+	(No symbol) [0x00007FF771AB7340]
+	(No symbol) [0x00007FF771ADF07F]
+	(No symbol) [0x00007FF771AB6F03]
+	(No symbol) [0x00007FF771A80328]
+	(No symbol) [0x00007FF771A81093]
+	GetHandleVerifier [0x00007FF771F27B6D+2931725]
+	GetHandleVerifier [0x00007FF771F22132+2908626]
+	GetHandleVerifier [0x00007FF771F400F3+3031443]
+	GetHandleVerifier [0x00007FF771C891EA+184970]
+	GetHandleVerifier [0x00007FF771C9086F+215311]
+	GetHandleVerifier [0x00007FF771C76EC4+110436]
+	GetHandleVerifier [0x00007FF771C77072+110866]
+	GetHandleVerifier [0x00007FF771C5D479+5401]
+	BaseThreadInitThunk [0x00007FFB0BA6E8D7+23]
+	RtlUserThreadStart [0x00007FFB0C7914FC+44]
+
+2025-04-24 11:30:31,872 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:30:48,498 - INFO - No popup found or failed to close
+2025-04-24 11:30:48,498 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:31:25,129 - INFO - 127.0.0.1 - - [24/Apr/2025 11:31:25] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:31:25,443 - INFO - 127.0.0.1 - - [24/Apr/2025 11:31:25] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:31:27,254 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:31:48,888 - INFO - No popup found or failed to close
+2025-04-24 11:31:48,888 - INFO - Fetching data for Papaya in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:32:20,075 - INFO - 127.0.0.1 - - [24/Apr/2025 11:32:20] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-24 11:32:20,405 - INFO - 127.0.0.1 - - [24/Apr/2025 11:32:20] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:32:22,171 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:32:38,525 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-24 11:32:38,591 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-24 11:32:38,801 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-24 11:32:38,874 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-24 11:32:39,089 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-24 11:32:39,127 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-24 11:32:39,163 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-24 11:32:39,204 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-24 11:32:40,186 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-24 11:33:02,669 - WARNING -  * Debugger is active!
+2025-04-24 11:33:02,675 - INFO -  * Debugger PIN: 129-038-908
+2025-04-24 11:33:02,760 - INFO - 127.0.0.1 - - [24/Apr/2025 11:33:02] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:33:04,664 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:33:17,830 - INFO - No popup found or failed to close
+2025-04-24 11:33:17,831 - INFO - Fetching data for Pineapple in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:33:37,575 - INFO - 127.0.0.1 - - [24/Apr/2025 11:33:37] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-28 09:48:17,708 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 09:48:17,709 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 09:48:17,761 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 09:48:19,819 - WARNING -  * Debugger is active!
+2025-04-28 09:48:19,831 - INFO -  * Debugger PIN: 129-038-908
