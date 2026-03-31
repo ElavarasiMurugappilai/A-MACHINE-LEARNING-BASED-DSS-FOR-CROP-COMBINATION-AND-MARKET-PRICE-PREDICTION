@@ -1475,3 +1475,156 @@ Stacktrace:
 2026-03-31 17:08:45,162 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
 2026-03-31 17:09:01,860 - INFO - No popup found or failed to close
 2026-03-31 17:09:01,860 - INFO - Fetching data for Green Gram (Moong)(Whole) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:09:32,764 - ERROR - Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:09:46,717 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:10:15,254 - INFO - No popup found or failed to close
+2026-03-31 17:10:15,255 - INFO - Fetching data for Green Gram (Moong)(Whole) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:10:45,378 - ERROR - Attempt 3 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:10:48,834 - ERROR - All retries failed
+2026-03-31 17:10:48,890 - INFO - 127.0.0.1 - - [31/Mar/2026 17:10:48] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2026-03-31 17:10:49,820 - INFO - 127.0.0.1 - - [31/Mar/2026 17:10:49] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-03-31 17:10:52,904 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:11:14,094 - INFO - No popup found or failed to close
+2026-03-31 17:11:14,094 - INFO - Fetching data for Kabuli Channa(Chickpeas-White) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:11:44,190 - ERROR - Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:11:52,761 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:12:07,003 - INFO - No popup found or failed to close
+2026-03-31 17:12:07,003 - INFO - Fetching data for Kabuli Channa(Chickpeas-White) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:12:37,151 - ERROR - Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:12:45,872 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:13:00,374 - INFO - No popup found or failed to close
+2026-03-31 17:13:00,375 - INFO - Fetching data for Kabuli Channa(Chickpeas-White) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:13:30,602 - ERROR - Attempt 3 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:13:33,374 - ERROR - All retries failed
+2026-03-31 17:13:33,375 - INFO - 127.0.0.1 - - [31/Mar/2026 17:13:33] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2026-03-31 17:13:33,769 - INFO - 127.0.0.1 - - [31/Mar/2026 17:13:33] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-03-31 17:13:34,909 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:13:46,161 - INFO - No popup found or failed to close
+2026-03-31 17:13:46,161 - INFO - Fetching data for Cowpea (Lobia/Karamani) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:14:16,408 - ERROR - Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
