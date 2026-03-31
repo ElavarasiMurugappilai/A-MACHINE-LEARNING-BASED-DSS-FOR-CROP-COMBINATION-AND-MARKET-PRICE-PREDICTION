@@ -6,15 +6,14 @@ def get_db_connection():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='balaji@06',  
-            database='croprecommendation'
+            password='ElaMysql@123',
+            database='crop_dss'
         )
         return connection
     except Error as err:
         print(f"Database Connection Error: {err}")
         return None
 
-# Optional: Function to close connection
 def close_db_connection(connection, cursor=None):
     if cursor:
         cursor.close()

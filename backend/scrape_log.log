@@ -1317,3 +1317,161 @@ Stacktrace:
 2025-04-28 09:48:17,761 - INFO -  * Restarting with watchdog (windowsapi)
 2025-04-28 09:48:19,819 - WARNING -  * Debugger is active!
 2025-04-28 09:48:19,831 - INFO -  * Debugger PIN: 129-038-908
+2026-03-31 15:56:29,885 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 15:56:29,885 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 15:56:29,887 - INFO -  * Restarting with stat
+2026-03-31 15:56:32,328 - WARNING -  * Debugger is active!
+2026-03-31 15:56:32,331 - INFO -  * Debugger PIN: 758-809-267
+2026-03-31 16:05:36,732 - INFO - 127.0.0.1 - - [31/Mar/2026 16:05:36] "OPTIONS /login HTTP/1.1" 200 -
+2026-03-31 16:05:38,999 - INFO - 127.0.0.1 - - [31/Mar/2026 16:05:38] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-03-31 16:06:04,944 - INFO - 127.0.0.1 - - [31/Mar/2026 16:06:04] "OPTIONS /login HTTP/1.1" 200 -
+2026-03-31 16:06:07,292 - INFO - 127.0.0.1 - - [31/Mar/2026 16:06:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-03-31 16:39:01,418 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 16:39:01,419 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 16:39:01,421 - INFO -  * Restarting with stat
+2026-03-31 16:39:03,864 - WARNING -  * Debugger is active!
+2026-03-31 16:39:03,870 - INFO -  * Debugger PIN: 758-809-267
+2026-03-31 16:41:00,494 - INFO - 127.0.0.1 - - [31/Mar/2026 16:41:00] "OPTIONS /signup HTTP/1.1" 200 -
+2026-03-31 16:41:00,978 - INFO - package: mysql.connector.plugins
+2026-03-31 16:41:00,979 - INFO - plugin_name: caching_sha2_password
+2026-03-31 16:41:00,983 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-31 16:41:01,012 - INFO - 127.0.0.1 - - [31/Mar/2026 16:41:01] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2026-03-31 16:50:11,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 16:50:11,154 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 16:50:11,157 - INFO -  * Restarting with stat
+2026-03-31 16:50:13,607 - WARNING -  * Debugger is active!
+2026-03-31 16:50:13,614 - INFO -  * Debugger PIN: 758-809-267
+2026-03-31 16:52:04,265 - INFO - 127.0.0.1 - - [31/Mar/2026 16:52:04] "OPTIONS /signup HTTP/1.1" 200 -
+2026-03-31 16:52:04,789 - INFO - package: mysql.connector.plugins
+2026-03-31 16:52:04,789 - INFO - plugin_name: caching_sha2_password
+2026-03-31 16:52:04,789 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-31 16:52:04,821 - INFO - 127.0.0.1 - - [31/Mar/2026 16:52:04] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2026-03-31 16:58:21,576 - INFO -  * Detected change in 'C:\\Users\\elava\\OneDrive\\Desktop\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\database\\db_connection.py', reloading
+2026-03-31 16:58:23,050 - INFO -  * Restarting with stat
+2026-03-31 16:58:28,465 - WARNING -  * Debugger is active!
+2026-03-31 16:58:28,468 - INFO -  * Debugger PIN: 758-809-267
+2026-03-31 16:59:39,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 16:59:39,889 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 16:59:39,892 - INFO -  * Restarting with stat
+2026-03-31 16:59:42,345 - WARNING -  * Debugger is active!
+2026-03-31 16:59:42,348 - INFO -  * Debugger PIN: 758-809-267
+2026-03-31 17:01:12,281 - INFO - 127.0.0.1 - - [31/Mar/2026 17:01:12] "OPTIONS /signup HTTP/1.1" 200 -
+2026-03-31 17:01:12,831 - INFO - package: mysql.connector.plugins
+2026-03-31 17:01:12,831 - INFO - plugin_name: caching_sha2_password
+2026-03-31 17:01:12,832 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-31 17:01:13,545 - INFO - 127.0.0.1 - - [31/Mar/2026 17:01:13] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2026-03-31 17:01:27,451 - INFO - 127.0.0.1 - - [31/Mar/2026 17:01:27] "OPTIONS /login HTTP/1.1" 200 -
+2026-03-31 17:01:28,478 - INFO - 127.0.0.1 - - [31/Mar/2026 17:01:28] "POST /login HTTP/1.1" 200 -
+2026-03-31 17:02:40,415 - INFO - 127.0.0.1 - - [31/Mar/2026 17:02:40] "OPTIONS /predict HTTP/1.1" 200 -
+2026-03-31 17:02:40,595 - INFO - 127.0.0.1 - - [31/Mar/2026 17:02:40] "POST /predict HTTP/1.1" 200 -
+2026-03-31 17:03:27,002 - INFO - 127.0.0.1 - - [31/Mar/2026 17:03:27] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-03-31 17:04:32,623 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:05:32,059 - INFO - No popup found or failed to close
+2026-03-31 17:05:32,059 - INFO - Fetching data for Moath Dal in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:06:02,357 - ERROR - Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:06:11,266 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:06:25,140 - INFO - No popup found or failed to close
+2026-03-31 17:06:25,140 - INFO - Fetching data for Moath Dal in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:06:55,454 - ERROR - Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:07:04,073 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:07:19,545 - INFO - No popup found or failed to close
+2026-03-31 17:07:19,545 - INFO - Fetching data for Moath Dal in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:07:49,781 - ERROR - Attempt 3 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:07:52,124 - ERROR - All retries failed
+2026-03-31 17:07:52,146 - INFO - 127.0.0.1 - - [31/Mar/2026 17:07:52] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2026-03-31 17:07:52,479 - INFO - 127.0.0.1 - - [31/Mar/2026 17:07:52] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-03-31 17:07:54,096 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:08:05,599 - INFO - No popup found or failed to close
+2026-03-31 17:08:05,599 - INFO - Fetching data for Green Gram (Moong)(Whole) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-03-31 17:08:35,875 - ERROR - Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6283229c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff62804a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff627dadb2d]
+	chromedriver!(No symbol) [0x7ff627e06b9e]
+	chromedriver!(No symbol) [0x7ff627e06eac]
+	chromedriver!(No symbol) [0x7ff627e56fe7]
+	chromedriver!(No symbol) [0x7ff627e53b9b]
+	chromedriver!(No symbol) [0x7ff627df9298]
+	chromedriver!(No symbol) [0x7ff627dfa183]
+	chromedriver!GetHandleVerifier [0x7ff62834de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff628348588+313348]
+	chromedriver!GetHandleVerifier [0x7ff628369d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff628066785+31545]
+	chromedriver!GetHandleVerifier [0x7ff62806facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff628053634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6280537e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff628037e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
+
+2026-03-31 17:08:45,162 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:09:01,860 - INFO - No popup found or failed to close
+2026-03-31 17:09:01,860 - INFO - Fetching data for Green Gram (Moong)(Whole) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
