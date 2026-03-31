@@ -1628,3 +1628,6 @@ Stacktrace:
 	KERNEL32!BaseThreadInitThunk [0x7ff82c96e8d7+17]
 	ntdll!RtlUserThreadStart [0x7ff82db8c48c+2c]
 
+2026-03-31 17:14:34,586 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2026-03-31 17:14:45,572 - INFO - No popup found or failed to close
+2026-03-31 17:14:45,573 - INFO - Fetching data for Cowpea (Lobia/Karamani) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
