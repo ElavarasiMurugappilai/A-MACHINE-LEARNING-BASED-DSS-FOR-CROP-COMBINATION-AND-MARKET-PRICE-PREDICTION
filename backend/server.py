@@ -65,22 +65,28 @@ def predict():
 # Signup Endpoint
 @app.route("/signup", methods=["POST"])
 def signup():
+    print(">>> signup route hit", flush=True)
+
     db = get_db_connection()
-    if not db:
+    print(">>> db object:", db, flush=True)
+
+    if db is None:
         return jsonify({"error": "Database connection failed"}), 500
 
     cursor = db.cursor()
     data = request.json
+    print(">>> request data:", data, flush=True)
 
-    # Hash the password
     hashed_password = bcrypt.generate_password_hash(data["password"]).decode("utf-8")
     sql = "INSERT INTO users (username, email, password) VALUES (%s, %s, %s)"
 
     try:
         cursor.execute(sql, (data["username"], data["email"], hashed_password))
         db.commit()
+        print(">>> user inserted successfully", flush=True)
         return jsonify({"message": "User registered successfully"}), 201
     except mysql.connector.Error as err:
+        print(">>> mysql error:", err, flush=True)
         return jsonify({"error": str(err)}), 400
     finally:
         close_db_connection(db, cursor)
@@ -89,7 +95,9 @@ def signup():
 @app.route("/login", methods=["POST"])
 def login():
     db = get_db_connection()
-    if not db:
+    print(">>> login db object:", db, flush=True)
+
+    if db is None:
         return jsonify({"error": "Database connection failed"}), 500
 
     cursor = db.cursor()
@@ -101,15 +109,16 @@ def login():
         user = cursor.fetchone()
 
         if not user or not bcrypt.check_password_hash(user[1], data["password"]):
-            close_db_connection(db, cursor)
             return jsonify({"message": "Invalid credentials"}), 401
 
-        close_db_connection(db, cursor)
         return jsonify({"message": "Login successful", "username": user[0]})
     except mysql.connector.Error as err:
         return jsonify({"error": str(err)}), 400
     finally:
         close_db_connection(db, cursor)
+
+
+
 
 # Market Price Scraping Logic
 def close_popup(driver):
@@ -288,4 +297,8 @@ def predict_prices():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=5000, use_reloader=False)
+
+
+
+    

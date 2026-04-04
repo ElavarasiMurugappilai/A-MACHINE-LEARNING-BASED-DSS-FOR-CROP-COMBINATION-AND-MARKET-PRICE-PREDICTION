@@ -1631,3 +1631,263 @@ Stacktrace:
 2026-03-31 17:14:34,586 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
 2026-03-31 17:14:45,572 - INFO - No popup found or failed to close
 2026-03-31 17:14:45,573 - INFO - Fetching data for Cowpea (Lobia/Karamani) in Tamil Nadu, Villupuram(Uzhavar Sandhai )
+2026-04-01 14:58:47,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 14:58:47,625 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 14:58:47,627 - INFO -  * Restarting with stat
+2026-04-01 14:58:49,754 - WARNING -  * Debugger is active!
+2026-04-01 14:58:49,757 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:08:59,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 15:08:59,333 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 15:08:59,337 - INFO -  * Restarting with stat
+2026-04-01 15:09:05,419 - WARNING -  * Debugger is active!
+2026-04-01 15:09:05,565 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:27:09,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 15:27:09,201 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 15:27:09,203 - INFO -  * Restarting with stat
+2026-04-01 15:27:11,621 - WARNING -  * Debugger is active!
+2026-04-01 15:27:11,623 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:39:31,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 15:39:31,525 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 15:39:31,528 - INFO -  * Restarting with stat
+2026-04-01 15:39:34,286 - WARNING -  * Debugger is active!
+2026-04-01 15:39:34,311 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:56:44,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 15:56:44,654 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 15:56:44,657 - INFO -  * Restarting with stat
+2026-04-01 15:56:46,774 - WARNING -  * Debugger is active!
+2026-04-01 15:56:46,777 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:58:12,675 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\database\\db_connection.py', reloading
+2026-04-01 15:58:13,558 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\database\\db_connection.py', reloading
+2026-04-01 15:58:14,083 - INFO -  * Restarting with stat
+2026-04-01 15:58:14,203 - INFO -  * Restarting with stat
+2026-04-01 15:58:19,131 - WARNING -  * Debugger is active!
+2026-04-01 15:58:19,132 - WARNING -  * Debugger is active!
+2026-04-01 15:58:19,138 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:58:19,141 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 15:58:43,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 15:58:43,257 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 15:58:43,259 - INFO -  * Restarting with stat
+2026-04-01 15:58:45,994 - WARNING -  * Debugger is active!
+2026-04-01 15:58:46,000 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:01:31,792 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\database\\test_db.py', reloading
+2026-04-01 16:01:32,274 - INFO -  * Restarting with stat
+2026-04-01 16:01:39,060 - WARNING -  * Debugger is active!
+2026-04-01 16:01:39,064 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:11:25,247 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\server.py', reloading
+2026-04-01 16:11:26,164 - INFO -  * Restarting with stat
+2026-04-01 16:11:30,072 - WARNING -  * Debugger is active!
+2026-04-01 16:11:30,075 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:11:46,800 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 16:11:46,801 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 16:11:46,802 - INFO -  * Restarting with stat
+2026-04-01 16:11:48,925 - WARNING -  * Debugger is active!
+2026-04-01 16:11:48,927 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:15:54,341 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\database\\db_connection.py', reloading
+2026-04-01 16:15:54,709 - INFO -  * Restarting with stat
+2026-04-01 16:15:59,869 - WARNING -  * Debugger is active!
+2026-04-01 16:15:59,872 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:17:10,462 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 16:17:10,462 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 16:17:10,463 - INFO -  * Restarting with stat
+2026-04-01 16:17:12,539 - WARNING -  * Debugger is active!
+2026-04-01 16:17:12,544 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:20:22,501 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 16:20:22,501 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 16:20:22,502 - INFO -  * Restarting with stat
+2026-04-01 16:20:25,082 - WARNING -  * Debugger is active!
+2026-04-01 16:20:25,085 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:25:22,563 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\server.py', reloading
+2026-04-01 16:25:22,973 - INFO -  * Restarting with stat
+2026-04-01 16:25:23,137 - INFO -  * Detected change in 'C:\\Users\\elava\\A-MACHINE-LEARNING-BASED-DSS-FOR-CROP-COMBINATION-AND-MARKET-PRICE-PREDICTION\\backend\\server.py', reloading
+2026-04-01 16:25:23,897 - INFO -  * Restarting with stat
+2026-04-01 16:25:27,480 - WARNING -  * Debugger is active!
+2026-04-01 16:25:27,486 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:25:27,805 - WARNING -  * Debugger is active!
+2026-04-01 16:25:27,809 - INFO -  * Debugger PIN: 287-848-380
+2026-04-01 16:26:26,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 16:26:26,460 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 11:05:37,806 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 11:05:37,811 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 11:11:37,800 - INFO - 127.0.0.1 - - [04/Apr/2026 11:11:37] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-04 11:11:37,942 - INFO - 127.0.0.1 - - [04/Apr/2026 11:11:37] "POST /predict HTTP/1.1" 200 -
+2026-04-04 11:11:52,578 - INFO - 127.0.0.1 - - [04/Apr/2026 11:11:52] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-04-04 11:12:01,983 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2026-04-04 11:12:10,517 - INFO - No popup found or failed to close
+2026-04-04 11:12:10,517 - INFO - Fetching data for Green Gram (Moong)(Whole) in Chandigarh, Chandigarh(Grain/Fruit)
+2026-04-04 11:12:40,863 - ERROR - Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6912f29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff69101a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff690d7db2d]
+	chromedriver!(No symbol) [0x7ff690dd6b9e]
+	chromedriver!(No symbol) [0x7ff690dd6eac]
+	chromedriver!(No symbol) [0x7ff690e26fe7]
+	chromedriver!(No symbol) [0x7ff690e23b9b]
+	chromedriver!(No symbol) [0x7ff690dc9298]
+	chromedriver!(No symbol) [0x7ff690dca183]
+	chromedriver!GetHandleVerifier [0x7ff69131de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff691318588+313348]
+	chromedriver!GetHandleVerifier [0x7ff691339d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff691036785+31545]
+	chromedriver!GetHandleVerifier [0x7ff69103facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff691023634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6910237e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff691007e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5ffae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa620cc48c+2c]
+
+2026-04-04 11:12:50,709 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2026-04-04 11:12:58,634 - INFO - No popup found or failed to close
+2026-04-04 11:12:58,634 - INFO - Fetching data for Green Gram (Moong)(Whole) in Chandigarh, Chandigarh(Grain/Fruit)
+2026-04-04 11:13:28,691 - ERROR - Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6912f29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff69101a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff690d7db2d]
+	chromedriver!(No symbol) [0x7ff690dd6b9e]
+	chromedriver!(No symbol) [0x7ff690dd6eac]
+	chromedriver!(No symbol) [0x7ff690e26fe7]
+	chromedriver!(No symbol) [0x7ff690e23b9b]
+	chromedriver!(No symbol) [0x7ff690dc9298]
+	chromedriver!(No symbol) [0x7ff690dca183]
+	chromedriver!GetHandleVerifier [0x7ff69131de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff691318588+313348]
+	chromedriver!GetHandleVerifier [0x7ff691339d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff691036785+31545]
+	chromedriver!GetHandleVerifier [0x7ff69103facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff691023634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6910237e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff691007e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5ffae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa620cc48c+2c]
+
+2026-04-04 11:13:39,603 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2026-04-04 11:13:47,792 - INFO - No popup found or failed to close
+2026-04-04 11:13:47,792 - INFO - Fetching data for Green Gram (Moong)(Whole) in Chandigarh, Chandigarh(Grain/Fruit)
+2026-04-04 11:14:17,987 - ERROR - Attempt 3 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6912f29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff69101a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff690d7db2d]
+	chromedriver!(No symbol) [0x7ff690dd6b9e]
+	chromedriver!(No symbol) [0x7ff690dd6eac]
+	chromedriver!(No symbol) [0x7ff690e26fe7]
+	chromedriver!(No symbol) [0x7ff690e23b9b]
+	chromedriver!(No symbol) [0x7ff690dc9298]
+	chromedriver!(No symbol) [0x7ff690dca183]
+	chromedriver!GetHandleVerifier [0x7ff69131de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff691318588+313348]
+	chromedriver!GetHandleVerifier [0x7ff691339d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff691036785+31545]
+	chromedriver!GetHandleVerifier [0x7ff69103facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff691023634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6910237e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff691007e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5ffae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa620cc48c+2c]
+
+2026-04-04 11:14:22,581 - ERROR - All retries failed
+2026-04-04 11:14:22,582 - INFO - 127.0.0.1 - - [04/Apr/2026 11:14:22] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2026-04-04 11:14:23,244 - INFO - 127.0.0.1 - - [04/Apr/2026 11:14:23] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-04-04 11:14:34,244 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2026-04-04 11:14:43,638 - INFO - No popup found or failed to close
+2026-04-04 11:14:43,638 - INFO - Fetching data for Cowpea (Lobia/Karamani) in Chandigarh, Chandigarh(Grain/Fruit)
+2026-04-04 11:15:02,412 - INFO - 127.0.0.1 - - [04/Apr/2026 11:15:02] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2026-04-04 11:15:13,945 - ERROR - Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6912f29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff69101a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff690d7db2d]
+	chromedriver!(No symbol) [0x7ff690dd6b9e]
+	chromedriver!(No symbol) [0x7ff690dd6eac]
+	chromedriver!(No symbol) [0x7ff690e26fe7]
+	chromedriver!(No symbol) [0x7ff690e23b9b]
+	chromedriver!(No symbol) [0x7ff690dc9298]
+	chromedriver!(No symbol) [0x7ff690dca183]
+	chromedriver!GetHandleVerifier [0x7ff69131de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff691318588+313348]
+	chromedriver!GetHandleVerifier [0x7ff691339d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff691036785+31545]
+	chromedriver!GetHandleVerifier [0x7ff69103facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff691023634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6910237e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff691007e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5ffae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa620cc48c+2c]
+
+2026-04-04 11:15:24,089 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2026-04-04 11:15:32,773 - INFO - No popup found or failed to close
+2026-04-04 11:15:32,773 - INFO - Fetching data for Cowpea (Lobia/Karamani) in Chandigarh, Chandigarh(Grain/Fruit)
+2026-04-04 11:16:02,860 - ERROR - Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6912f29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff69101a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff690d7db2d]
+	chromedriver!(No symbol) [0x7ff690dd6b9e]
+	chromedriver!(No symbol) [0x7ff690dd6eac]
+	chromedriver!(No symbol) [0x7ff690e26fe7]
+	chromedriver!(No symbol) [0x7ff690e23b9b]
+	chromedriver!(No symbol) [0x7ff690dc9298]
+	chromedriver!(No symbol) [0x7ff690dca183]
+	chromedriver!GetHandleVerifier [0x7ff69131de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff691318588+313348]
+	chromedriver!GetHandleVerifier [0x7ff691339d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff691036785+31545]
+	chromedriver!GetHandleVerifier [0x7ff69103facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff691023634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6910237e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff691007e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5ffae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa620cc48c+2c]
+
+2026-04-04 11:16:14,524 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2026-04-04 11:16:28,602 - INFO - No popup found or failed to close
+2026-04-04 11:16:28,603 - INFO - Fetching data for Cowpea (Lobia/Karamani) in Chandigarh, Chandigarh(Grain/Fruit)
+2026-04-04 11:16:58,655 - ERROR - Attempt 3 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6912f29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff69101a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff690d7db2d]
+	chromedriver!(No symbol) [0x7ff690dd6b9e]
+	chromedriver!(No symbol) [0x7ff690dd6eac]
+	chromedriver!(No symbol) [0x7ff690e26fe7]
+	chromedriver!(No symbol) [0x7ff690e23b9b]
+	chromedriver!(No symbol) [0x7ff690dc9298]
+	chromedriver!(No symbol) [0x7ff690dca183]
+	chromedriver!GetHandleVerifier [0x7ff69131de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff691318588+313348]
+	chromedriver!GetHandleVerifier [0x7ff691339d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff691036785+31545]
+	chromedriver!GetHandleVerifier [0x7ff69103facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff691023634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6910237e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff691007e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5ffae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa620cc48c+2c]
+
+2026-04-04 11:17:02,522 - ERROR - All retries failed
+2026-04-04 11:17:02,522 - INFO - 127.0.0.1 - - [04/Apr/2026 11:17:02] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2026-04-04 11:17:09,342 - INFO - 127.0.0.1 - - [04/Apr/2026 11:17:09] "OPTIONS /signup HTTP/1.1" 200 -
+2026-04-04 11:17:10,584 - INFO - package: mysql.connector.plugins
+2026-04-04 11:17:10,584 - INFO - plugin_name: caching_sha2_password
+2026-04-04 11:17:10,585 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-04 11:17:11,341 - INFO - 127.0.0.1 - - [04/Apr/2026 11:17:11] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2026-04-04 11:17:14,405 - INFO - 127.0.0.1 - - [04/Apr/2026 11:17:14] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-04 11:17:15,028 - INFO - 127.0.0.1 - - [04/Apr/2026 11:17:15] "POST /login HTTP/1.1" 200 -
+2026-04-04 11:19:15,172 - INFO - 127.0.0.1 - - [04/Apr/2026 11:19:15] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-04 11:19:16,282 - INFO - 127.0.0.1 - - [04/Apr/2026 11:19:16] "POST /predict HTTP/1.1" 200 -
+2026-04-04 11:20:15,305 - INFO - 127.0.0.1 - - [04/Apr/2026 11:20:15] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-04 11:20:15,906 - INFO - 127.0.0.1 - - [04/Apr/2026 11:20:15] "POST /login HTTP/1.1" 200 -
+2026-04-04 11:20:36,991 - INFO - 127.0.0.1 - - [04/Apr/2026 11:20:36] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-04 11:20:37,036 - INFO - 127.0.0.1 - - [04/Apr/2026 11:20:37] "POST /predict HTTP/1.1" 200 -
