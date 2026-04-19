@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { User, LockKeyhole, Eye, EyeOff, Loader2, Sprout, Mail } from 'lucide-react';
+import { User, LockKeyhole, Eye, EyeOff, Loader2, Sprout, Mail, Leaf, TrendingUp, BarChart3 } from 'lucide-react';
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -46,56 +46,60 @@ const Auth = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center min-h-screen bg-gradient-to-br from-green-50 to-green-200 p-4 overflow-hidden">
+    <div className="flex flex-col md:flex-row justify-center items-center min-h-screen" style={{ backgroundColor: '#F5F7F6' }}>
       {/* Left side - Branding */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8">
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8 animate-slide-up">
         <div className="flex items-center gap-3 mb-6">
-          <Sprout size={40} className="text-green-600" />
-          <h1 className="text-4xl md:text-5xl font-bold text-green-800">AgriPredict</h1>
+          <Sprout size={50} style={{ color: '#2E7D32' }} />
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold" style={{ color: '#1B4332' }}>AgroVision AI</h1>
+            <p className="text-lg" style={{ color: '#4F6F52' }}>From Soil to Profit – Smarter Farming Starts Here</p>
+          </div>
         </div>
-        <p className="text-xl text-center text-green-700 mb-6 max-w-md">
-          Smart crop recommendations and price predictions for modern farmers
+        <p className="text-xl text-center mb-8 max-w-md" style={{ color: '#4F6F52' }}>
+          AI-powered crop recommendations and market forecasting for modern farmers
         </p>
         <div className="hidden md:block w-full max-w-md">
-          <div className="bg-white bg-opacity-80 backdrop-blur-lg rounded-lg p-6 shadow-lg border border-green-100">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="bg-green-100 p-2 rounded-full">
-                <Sprout size={20} className="text-green-600" />
+          <div className="bg-white bg-opacity-90 backdrop-blur-lg rounded-lg p-6 shadow-lg border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="rounded-full p-2" style={{ backgroundColor: '#A5D6A7' }}>
+                <Leaf size={20} style={{ color: '#2E7D32' }} />
               </div>
-              <h3 className="font-semibold text-green-800">Crop Recommendations</h3>
+              <h3 className="font-semibold" style={{ color: '#1B4332' }}>Smart Crop Advisor</h3>
             </div>
-            <p className="text-green-700 mb-4 pl-10">Get personalized crop suggestions based on your soil, climate, and market conditions</p>
-            
-            <div className="flex items-center gap-3 mb-3">
-              <div className="bg-green-100 p-2 rounded-full">
-                <User size={20} className="text-green-600" />
+            <p style={{ color: '#4F6F52' }} className="mb-4 pl-10">Get personalized crop suggestions based on your soil, climate, and market conditions</p>
+
+            <div className="flex items-center gap-3 mb-4">
+              <div className="rounded-full p-2" style={{ backgroundColor: '#A5D6A7' }}>
+                <TrendingUp size={20} style={{ color: '#2E7D32' }} />
               </div>
-              <h3 className="font-semibold text-green-800">Price Predictions</h3>
+              <h3 className="font-semibold" style={{ color: '#1B4332' }}>AI Market Forecasting</h3>
             </div>
-            <p className="text-green-700 pl-10">Advanced analytics to forecast market prices for your crops</p>
+            <p style={{ color: '#4F6F52' }} className="pl-10">Advanced analytics to forecast market prices for your crops</p>
           </div>
         </div>
       </div>
 
       {/* Right side - Auth Form */}
-      <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
+      <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0 animate-fade-in">
         <form
           onSubmit={handleSubmit}
-          className="w-full max-w-md bg-white backdrop-blur-lg rounded-xl shadow-2xl p-8 border border-green-100"
+          className="w-full max-w-md bg-white backdrop-blur-lg rounded-xl shadow-2xl p-8 border"
+          style={{ borderColor: '#DDE7E1' }}
         >
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-green-800">
-              {isLogin ? 'Welcome Back' : 'Join AgriPredict'}
+            <h2 className="text-3xl font-bold" style={{ color: '#1B4332' }}>
+              {isLogin ? 'Welcome Back' : 'Join AgroVision AI'}
             </h2>
-            <p className="text-green-600 mt-2">
+            <p style={{ color: '#4F6F52' }} className="mt-2">
               {isLogin ? 'Log in to access your dashboard' : 'Create an account to get started'}
             </p>
           </div>
 
           {!isLogin && (
             <div className={`mb-5 transform transition-all duration-300 ${focused === 'username' ? 'scale-102' : ''}`}>
-              <label className="text-sm font-medium text-green-700 flex items-center gap-2 mb-1">
-                <User size={16} className="text-green-600" /> Username
+              <label className="text-sm font-medium flex items-center gap-2 mb-1" style={{ color: '#1B4332' }}>
+                <User size={16} style={{ color: '#2E7D32' }} /> Username
               </label>
               <div className="relative">
                 <input
@@ -106,16 +110,17 @@ const Auth = () => {
                   onBlur={() => setFocused('')}
                   onChange={(e) => setUsername(e.target.value)}
                   required
-                  className="w-full px-4 py-3 pl-10 border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent focus:outline-none text-gray-700 placeholder-gray-400 bg-green-50"
+                  className="w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent focus:outline-none text-gray-700 placeholder-gray-400"
+                  style={{ backgroundColor: '#F5F7F6', borderColor: '#DDE7E1' }}
                 />
-                <User size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-green-500" />
+                <User size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2" style={{ color: '#2E7D32' }} />
               </div>
             </div>
           )}
 
           <div className={`mb-5 transform transition-all duration-300 ${focused === 'email' ? 'scale-102' : ''}`}>
-            <label className="text-sm font-medium text-green-700 flex items-center gap-2 mb-1">
-              <Mail size={16} className="text-green-600" /> Email
+            <label className="text-sm font-medium flex items-center gap-2 mb-1" style={{ color: '#1B4332' }}>
+              <Mail size={16} style={{ color: '#2E7D32' }} /> Email
             </label>
             <div className="relative">
               <input
@@ -126,15 +131,16 @@ const Auth = () => {
                 onBlur={() => setFocused('')}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full px-4 py-3 pl-10 border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent focus:outline-none text-gray-700 placeholder-gray-400 bg-green-50"
+                className="w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent focus:outline-none text-gray-700 placeholder-gray-400"
+                style={{ backgroundColor: '#F5F7F6', borderColor: '#DDE7E1' }}
               />
-              <Mail size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-green-500" />
+              <Mail size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2" style={{ color: '#2E7D32' }} />
             </div>
           </div>
 
           <div className={`mb-5 transform transition-all duration-300 ${focused === 'password' ? 'scale-102' : ''}`}>
-            <label className="text-sm font-medium text-green-700 flex items-center gap-2 mb-1">
-              <LockKeyhole size={16} className="text-green-600" /> Password
+            <label className="text-sm font-medium flex items-center gap-2 mb-1" style={{ color: '#1B4332' }}>
+              <LockKeyhole size={16} style={{ color: '#2E7D32' }} /> Password
             </label>
             <div className="relative">
               <input
@@ -145,13 +151,15 @@ const Auth = () => {
                 onFocus={() => setFocused('password')}
                 onBlur={() => setFocused('')}
                 required
-                className="w-full px-4 py-3 pl-10 border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent focus:outline-none text-gray-700 placeholder-gray-400 bg-green-50"
+                className="w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent focus:outline-none text-gray-700 placeholder-gray-400"
+                style={{ backgroundColor: '#F5F7F6', borderColor: '#DDE7E1' }}
               />
-              <LockKeyhole size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-green-500" />
+              <LockKeyhole size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2" style={{ color: '#2E7D32' }} />
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-green-600 hover:text-green-800"
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 hover:text-green-800"
+                style={{ color: '#2E7D32' }}
               >
                 {!showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
               </button>
@@ -159,7 +167,7 @@ const Auth = () => {
           </div>
 
           {error && (
-            <div className="bg-red-50 text-red-700 p-3 rounded-lg mb-5 text-center border border-red-200">
+            <div className="bg-red-50 text-red-700 p-3 rounded-lg mb-5 text-center border" style={{ borderColor: '#DDE7E1' }}>
               {error}
             </div>
           )}
@@ -168,7 +176,8 @@ const Auth = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 flex items-center justify-center gap-2"
+              className="w-full py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 text-white"
+              style={{ backgroundColor: '#2E7D32' }}
             >
               {isLoading ? (
                 <>
@@ -184,7 +193,7 @@ const Auth = () => {
           </div>
 
           <div className="mt-6 text-center">
-            <p className="text-green-700">
+            <p style={{ color: '#4F6F52' }}>
               {isLogin ? "Don't have an account?" : 'Already have an account?'}{' '}
               <button
                 type="button"
@@ -193,7 +202,8 @@ const Auth = () => {
                   setPassword('');
                   setError('');
                 }}
-                className="text-green-600 font-semibold hover:underline focus:outline-none"
+                className="font-semibold hover:underline focus:outline-none"
+                style={{ color: '#2E7D32' }}
               >
                 {isLogin ? 'Sign Up' : 'Log In'}
               </button>
@@ -204,7 +214,8 @@ const Auth = () => {
             <div className="mt-4 text-center">
               <button
                 type="button"
-                className="text-green-600 text-sm hover:underline focus:outline-none"
+                className="text-sm hover:underline focus:outline-none"
+                style={{ color: '#4F6F52' }}
               >
                 Forgot password?
               </button>

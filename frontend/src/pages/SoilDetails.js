@@ -6,7 +6,19 @@ import WeatherDisplay from "../components/WeatherDisplay";
 import ErrorMessage from "../components/ErrorMessage";
 import useWeatherData from "../hooks/useWeatherData";
 import axios from "axios";
-import { Sprout } from "lucide-react";
+import {
+  Sprout,
+  Leaf,
+  Cloud,
+  TestTube,
+  ArrowLeft,
+  ArrowRight,
+  Loader2,
+  HelpCircle,
+  Zap,
+  Info,
+  CheckCircle
+} from "lucide-react";
 
 const SoilDetails = () => {
   const navigate = useNavigate();
@@ -19,6 +31,7 @@ const SoilDetails = () => {
   });
   const [error, setError] = React.useState("");
   const [loading, setLoading] = React.useState(false);
+  const [currentStep, setCurrentStep] = React.useState(1);
 
   const {
     weatherData,
@@ -74,152 +87,152 @@ const SoilDetails = () => {
     }
   };
 
+  const steps = [
+    { id: 1, title: "Soil Analysis", icon: <TestTube size={20} />, description: "Enter soil composition" },
+    { id: 2, title: "Weather Data", icon: <Cloud size={20} />, description: "Configure weather settings" },
+    { id: 3, title: "AI Prediction", icon: <Leaf size={20} />, description: "Get crop recommendations" }
+  ];
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 py-12 px-4">
-      <div className="container mx-auto max-w-4xl mb-8">
-        <div className="flex items-center justify-center mb-6">
-          <Sprout size={40} className="text-green-600" />
-          <h1 className="text-3xl font-bold text-green-700">AgriPredict</h1>
+    <div className="min-h-screen" style={{ backgroundColor: '#F5F7F6' }}>
+      {/* Header */}
+      <header className="bg-white shadow-lg border-b" style={{ borderColor: '#DDE7E1' }}>
+        <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+          <div className="flex items-center gap-3">
+            <Sprout size={32} style={{ color: '#2E7D32' }} />
+            <div>
+              <h1 className="text-xl font-bold" style={{ color: '#1B4332' }}>AgroVision AI</h1>
+              <p className="text-xs" style={{ color: '#4F6F52' }}>Smart Crop Advisor</p>
+            </div>
+          </div>
+          <button
+            onClick={() => navigate('/home')}
+            className="flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:shadow-md"
+            style={{ backgroundColor: '#A5D6A7', color: '#1B4332' }}
+          >
+            <ArrowLeft size={18} />
+            Back to Dashboard
+          </button>
+        </div>
+      </header>
+
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Progress Steps */}
+        <div className="mb-8">
+          <div className="flex items-center justify-center mb-6">
+            {steps.map((step, index) => (
+              <React.Fragment key={step.id}>
+                <div className={`flex items-center gap-3 px-4 py-2 rounded-lg transition-all duration-300 ${
+                  currentStep >= step.id ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-500'
+                }`}>
+                  <div className={`p-2 rounded-full ${
+                    currentStep >= step.id ? 'bg-green-500 text-white' : 'bg-gray-300 text-gray-500'
+                  }`}>
+                    {step.icon}
+                  </div>
+                  <div className="text-center">
+                    <p className="text-sm font-medium">{step.title}</p>
+                    <p className="text-xs opacity-75">{step.description}</p>
+                  </div>
+                </div>
+                {index < steps.length - 1 && (
+                  <div className={`w-12 h-0.5 mx-2 ${currentStep > step.id ? 'bg-green-500' : 'bg-gray-300'}`} />
+                )}
+              </React.Fragment>
+            ))}
+          </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-          <div className="bg-gradient-to-r from-green-600 to-green-700 py-6 px-8">
-            <h2 className="text-2xl font-bold text-white mb-2">Land Details & Weather</h2>
-            <p className="text-green-100">
-              Enter your soil composition and configure weather data for crop recommendations
-            </p>
+        {/* Main Content Card */}
+        <div className="bg-white rounded-xl shadow-lg border overflow-hidden" style={{ borderColor: '#DDE7E1' }}>
+          <div className="px-8 py-6 border-b" style={{ backgroundColor: '#A5D6A7', borderColor: '#DDE7E1' }}>
+            <div className="flex items-center gap-3 mb-2">
+              <div className="p-2 rounded-lg" style={{ backgroundColor: '#2E7D32' }}>
+                <Leaf size={24} className="text-white" />
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold" style={{ color: '#1B4332' }}>Land Analysis & Weather Configuration</h2>
+                <p style={{ color: '#4F6F52' }}>Enter your soil parameters and weather data for AI-powered crop recommendations</p>
+              </div>
+            </div>
           </div>
 
           <div className="p-8">
-            <div className="bg-green-50 p-6 rounded-xl mb-8 border border-green-100 shadow-sm">
-              <h3 className="text-lg font-semibold text-green-800 mb-4 flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 mr-2 text-green-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-                  />
-                </svg>
-                Soil Composition
-              </h3>
-              <SoilInputForm soilData={soilData} setSoilData={setSoilData} />
+            {/* Soil Composition Section */}
+            <div className="mb-8">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                  <TestTube size={24} style={{ color: '#2E7D32' }} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold" style={{ color: '#1B4332' }}>Soil Composition Analysis</h3>
+                  <p style={{ color: '#4F6F52' }}>Enter your soil nutrient levels for comprehensive analysis</p>
+                </div>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+                <SoilInputForm soilData={soilData} setSoilData={setSoilData} />
+              </div>
             </div>
 
-            <div className="bg-blue-50 p-6 rounded-xl mb-6 border border-blue-100 shadow-sm">
-              <h3 className="text-lg font-semibold text-blue-800 mb-4 flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 mr-2 text-blue-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
-                  />
-                </svg>
-                Weather Information
-              </h3>
-              <WeatherSelector
-                fetchWeather={fetchWeather}
-                setFetchWeather={setFetchWeather}
-                autoFetch={autoFetch}
-                setAutoFetch={setAutoFetch}
-              />
-              <div className="mt-4">
-                <WeatherDisplay
+            {/* Weather Information Section */}
+            <div className="mb-8">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                  <Cloud size={24} style={{ color: '#2E7D32' }} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold" style={{ color: '#1B4332' }}>Weather Data Configuration</h3>
+                  <p style={{ color: '#4F6F52' }}>Configure weather settings to optimize crop recommendations</p>
+                </div>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+                <WeatherSelector
                   fetchWeather={fetchWeather}
-                  weatherData={weatherData}
-                  cumulativeRainfall={cumulativeRainfall}
-                  pincode={pincode}
-                  setPincode={setPincode}
+                  setFetchWeather={setFetchWeather}
                   autoFetch={autoFetch}
+                  setAutoFetch={setAutoFetch}
                 />
+                <div className="mt-6">
+                  <WeatherDisplay
+                    fetchWeather={fetchWeather}
+                    weatherData={weatherData}
+                    cumulativeRainfall={cumulativeRainfall}
+                    pincode={pincode}
+                    setPincode={setPincode}
+                    autoFetch={autoFetch}
+                  />
+                </div>
               </div>
             </div>
 
             <ErrorMessage error={error || weatherError} />
 
-            <div className="flex items-center justify-between mt-8">
+            {/* Action Buttons */}
+            <div className="flex items-center justify-between mt-8 pt-6 border-t" style={{ borderColor: '#DDE7E1' }}>
               <button
-                onClick={() => navigate("/")}
-                className="px-6 py-3 bg-white border border-green-500 text-green-600 rounded-lg hover:bg-green-50 focus:ring-2 focus:ring-green-200 focus:outline-none transition-all duration-300 flex items-center"
+                onClick={() => navigate('/home')}
+                className="flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-md"
+                style={{ backgroundColor: '#F5F7F6', color: '#4F6F52', border: '1px solid #DDE7E1' }}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 mr-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
-                  />
-                </svg>
-                Back to Home
+                <ArrowLeft size={18} />
+                Back to Dashboard
               </button>
 
               <button
                 onClick={handlePredict}
                 disabled={loading}
-                className={`px-8 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg font-semibold shadow-md hover:from-green-600 hover:to-green-700 focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 flex items-center ${
-                  loading ? "opacity-70 cursor-not-allowed" : ""
-                }`}
+                className="flex items-center gap-3 px-8 py-3 rounded-lg font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed"
+                style={{ backgroundColor: '#2E7D32' }}
               >
                 {loading ? (
                   <>
-                    <svg
-                      className="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                    >
-                      <circle
-                        className="opacity-25"
-                        cx="12"
-                        cy="12"
-                        r="10"
-                        stroke="currentColor"
-                        strokeWidth="4"
-                      ></circle>
-                      <path
-                        className="opacity-75"
-                        fill="currentColor"
-                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                      ></path>
-                    </svg>
-                    Processing...
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                    Processing Analysis...
                   </>
                 ) : (
                   <>
-                    Get Prediction
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 ml-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
+                    Get AI Recommendations
+                    <ArrowRight size={18} />
                   </>
                 )}
               </button>
@@ -227,74 +240,58 @@ const SoilDetails = () => {
           </div>
         </div>
 
+        {/* Help Cards */}
         <div className="grid md:grid-cols-3 gap-6 mt-8">
-          <div className="bg-white p-5 rounded-xl shadow-md border-l-4 border-green-500">
-            <div className="flex items-center mb-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-green-500 mr-2"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <h3 className="font-semibold text-green-700">Need Help?</h3>
+          <div className="bg-white rounded-xl shadow-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                <HelpCircle size={20} style={{ color: '#2E7D32' }} />
+              </div>
+              <h3 className="font-semibold" style={{ color: '#1B4332' }}>Soil Parameters Guide</h3>
             </div>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm" style={{ color: '#4F6F52' }}>
               Ideal N, P, K values range between 0-100. pH typically ranges from 0-14, with 7 being neutral.
             </p>
           </div>
 
-          <div className="bg-white p-5 rounded-xl shadow-md border-l-4 border-blue-500">
-            <div className="flex items-center mb-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-blue-500 mr-2"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
-              <h3 className="font-semibold text-blue-700">Weather Tip</h3>
+          <div className="bg-white rounded-xl shadow-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                <Zap size={20} style={{ color: '#2E7D32' }} />
+              </div>
+              <h3 className="font-semibold" style={{ color: '#1B4332' }}>Weather Integration</h3>
             </div>
-            <p className="text-sm text-gray-600">
-              Enable auto-fetch to use your current location or enter a pincode manually.
+            <p className="text-sm" style={{ color: '#4F6F52' }}>
+              Enable auto-fetch to use your current location or enter a pincode manually for accurate weather data.
             </p>
           </div>
 
-          <div className="bg-white p-5 rounded-xl shadow-md border-l-4 border-yellow-500">
-            <div className="flex items-center mb-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-yellow-500 mr-2"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <h3 className="font-semibold text-yellow-700">Remember</h3>
+          <div className="bg-white rounded-xl shadow-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                <Info size={20} style={{ color: '#2E7D32' }} />
+              </div>
+              <h3 className="font-semibold" style={{ color: '#1B4332' }}>Measurement Units</h3>
             </div>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm" style={{ color: '#4F6F52' }}>
               Rainfall is measured in mm. Temperature is in Celsius. Humidity is measured as a percentage.
             </p>
+          </div>
+        </div>
+
+        {/* Success Tips */}
+        <div className="mt-8 bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border" style={{ borderColor: '#DDE7E1' }}>
+          <div className="flex items-start gap-4">
+            <CheckCircle size={24} style={{ color: '#2E7D32' }} className="mt-1" />
+            <div>
+              <h3 className="font-semibold mb-2" style={{ color: '#1B4332' }}>Pro Tips for Better Results</h3>
+              <ul className="text-sm space-y-1" style={{ color: '#4F6F52' }}>
+                <li>• Use recent soil test results for accurate nutrient levels</li>
+                <li>• Enable weather fetching for real-time climate data</li>
+                <li>• Consider seasonal variations when interpreting recommendations</li>
+                <li>• Combine AI suggestions with your local farming expertise</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

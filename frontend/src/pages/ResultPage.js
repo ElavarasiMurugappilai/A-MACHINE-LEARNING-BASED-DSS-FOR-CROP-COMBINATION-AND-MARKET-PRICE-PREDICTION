@@ -1,25 +1,64 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import {
+  Sprout,
+  Leaf,
+  TrendingUp,
+  Calculator,
+  CheckCircle,
+  AlertTriangle,
+  ArrowLeft,
+  RotateCcw,
+  DollarSign,
+  Target,
+  Award,
+  ChevronRight,
+  BarChart3
+} from "lucide-react";
 
 const ResultPage = () => {
   const location = useLocation();
   const prediction = location.state?.prediction;
   const navigate = useNavigate();
-  
+
+  const [profitData, setProfitData] = useState({
+    area: '',
+    yield: '',
+    marketPrice: '',
+    cultivationCost: ''
+  });
+  const [estimatedProfit, setEstimatedProfit] = useState(null);
+
+  const calculateProfit = () => {
+    const area = parseFloat(profitData.area) || 0;
+    const yieldPerArea = parseFloat(profitData.yield) || 0;
+    const marketPrice = parseFloat(profitData.marketPrice) || 0;
+    const cultivationCost = parseFloat(profitData.cultivationCost) || 0;
+
+    const totalYield = area * yieldPerArea;
+    const totalRevenue = totalYield * marketPrice;
+    const totalCost = area * cultivationCost;
+    const profit = totalRevenue - totalCost;
+    const profitMargin = totalRevenue > 0 ? (profit / totalRevenue) * 100 : 0;
+
+    setEstimatedProfit({ totalYield, totalRevenue, totalCost, profit, profitMargin });
+  };
+
   if (!prediction) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 flex justify-center items-center p-4">
-        <div className="bg-white rounded-xl shadow-xl p-8 text-center max-w-md">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-red-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-          </svg>
-          <h2 className="text-2xl font-bold text-red-600 mb-2">No Prediction Data</h2>
-          <p className="text-gray-600 mb-6">Sorry, we couldn't find any prediction data for your query.</p>
+      <div className="min-h-screen flex justify-center items-center p-4" style={{ backgroundColor: '#F5F7F6' }}>
+        <div className="bg-white rounded-xl shadow-lg p-8 text-center max-w-md border" style={{ borderColor: '#DDE7E1' }}>
+          <div className="p-4 rounded-full mx-auto mb-4 w-fit" style={{ backgroundColor: '#FFF5F5' }}>
+            <AlertTriangle size={48} style={{ color: '#DC2626' }} />
+          </div>
+          <h2 className="text-2xl font-bold mb-2" style={{ color: '#1B4332' }}>No Prediction Data</h2>
+          <p className="mb-6" style={{ color: '#4F6F52' }}>Sorry, we couldn't find any prediction data for your query.</p>
           <button
             onClick={() => navigate("/soil-details")}
-            className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition duration-300 shadow-md"
+            className="px-6 py-3 rounded-lg font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300"
+            style={{ backgroundColor: '#2E7D32' }}
           >
-            Try Another Prediction
+            Try Another Analysis
           </button>
         </div>
       </div>
@@ -27,100 +66,220 @@ const ResultPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 flex justify-center items-center p-4">
-      <div className="w-full max-w-2xl bg-white rounded-xl shadow-xl p-8 text-center">
-        <div className="mb-8">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-green-500 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <h1 className="text-3xl font-bold text-green-700 mb-1">Prediction Result</h1>
-          <div className="h-1 w-24 bg-gradient-to-r from-green-400 to-green-600 mx-auto"></div>
+    <div className="min-h-screen py-8 px-4" style={{ backgroundColor: '#F5F7F6' }}>
+      {/* Header */}
+      <header className="max-w-4xl mx-auto mb-8">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <Sprout size={32} style={{ color: '#2E7D32' }} />
+          <div className="text-center">
+            <h1 className="text-2xl font-bold" style={{ color: '#1B4332' }}>AgroVision AI</h1>
+            <p className="text-sm" style={{ color: '#4F6F52' }}>Smart Crop Advisor Results</p>
+          </div>
         </div>
-        
+      </header>
+
+      <div className="max-w-4xl mx-auto space-y-8">
+        {/* Success Header */}
+        <div className="bg-white rounded-xl shadow-lg p-8 text-center border" style={{ borderColor: '#DDE7E1' }}>
+          <div className="flex justify-center mb-6">
+            <div className="p-4 rounded-full" style={{ backgroundColor: '#A5D6A7' }}>
+              <CheckCircle size={48} style={{ color: '#2E7D32' }} />
+            </div>
+          </div>
+          <h1 className="text-3xl font-bold mb-2" style={{ color: '#1B4332' }}>AI Analysis Complete!</h1>
+          <p className="text-lg" style={{ color: '#4F6F52' }}>Your personalized crop recommendations are ready</p>
+          <div className="h-1 w-32 mx-auto mt-4" style={{ backgroundColor: '#2E7D32' }}></div>
+        </div>
+
         {prediction.error ? (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-6">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-red-500 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <p className="text-red-600 text-lg">{prediction.error}</p>
+          <div className="bg-white rounded-xl shadow-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="flex items-center gap-4">
+              <div className="p-3 rounded-lg" style={{ backgroundColor: '#FFF5F5' }}>
+                <AlertTriangle size={24} style={{ color: '#DC2626' }} />
+              </div>
+              <div>
+                <h3 className="font-semibold" style={{ color: '#1B4332' }}>Analysis Error</h3>
+                <p style={{ color: '#DC2626' }}>{prediction.error}</p>
+              </div>
+            </div>
           </div>
         ) : (
           <>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
-              <h2 className="text-2xl font-bold text-green-800 mb-2">Main Recommended Crop</h2>
-              <div className="flex items-center justify-center">
-                <div className="rounded-full bg-green-100 w-12 h-12 flex items-center justify-center mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
-                  </svg>
+            {/* Main Crop Recommendation */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border" style={{ borderColor: '#DDE7E1' }}>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                  <Award size={24} style={{ color: '#2E7D32' }} />
                 </div>
-                <span className="text-2xl font-semibold text-green-700">{prediction.main_crop}</span>
+                <div>
+                  <h2 className="text-2xl font-bold" style={{ color: '#1B4332' }}>Primary Crop Recommendation</h2>
+                  <p style={{ color: '#4F6F52' }}>Based on your soil analysis and weather conditions</p>
+                </div>
+              </div>
+              <div className="flex items-center justify-center p-8 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                <div className="text-center">
+                  <div className="p-4 rounded-full mx-auto mb-4 w-fit" style={{ backgroundColor: '#2E7D32' }}>
+                    <Leaf size={32} className="text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-white mb-2">{prediction.main_crop}</h3>
+                  <p className="text-white opacity-90">Optimal choice for your conditions</p>
+                </div>
               </div>
             </div>
-            
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
-              <h3 className="text-xl font-semibold text-green-700 mb-4">Suggested Sub-Crops</h3>
+
+            {/* Sub-Crops */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border" style={{ borderColor: '#DDE7E1' }}>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                  <Target size={24} style={{ color: '#2E7D32' }} />
+                </div>
+                <div>
+                  <h2 className="text-2xl font-bold" style={{ color: '#1B4332' }}>Compatible Sub-Crops</h2>
+                  <p style={{ color: '#4F6F52' }}>Additional crops that complement your primary choice</p>
+                </div>
+              </div>
               <div className="grid md:grid-cols-2 gap-4">
                 {prediction.sub_crops.map((crop, index) => (
-                  <div key={index} className="bg-white rounded-lg p-4 shadow-md transform hover:scale-105 transition duration-300">
-                    <div className="flex items-center">
-                      <div className="rounded-full bg-green-100 w-10 h-10 flex items-center justify-center mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
+                  <div key={index} className="bg-gray-50 rounded-lg p-4 border hover:shadow-md transition-all duration-300" style={{ borderColor: '#DDE7E1' }}>
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                        <CheckCircle size={20} style={{ color: '#2E7D32' }} />
                       </div>
-                      <div className="text-left">
-                        <p className="font-semibold text-green-700">{crop.sub_crop}</p>
-                        <p className="text-sm text-gray-600">Compatibility: {(100 - crop.distance).toFixed(1)}%</p>
+                      <div className="flex-1">
+                        <h4 className="font-semibold" style={{ color: '#1B4332' }}>{crop.sub_crop}</h4>
+                        <div className="flex items-center gap-2 mt-1">
+                          <div className="flex-1 bg-gray-200 rounded-full h-2">
+                            <div
+                              className="h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${(100 - crop.distance)}%`, backgroundColor: '#2E7D32' }}
+                            ></div>
+                          </div>
+                          <span className="text-sm font-medium" style={{ color: '#4F6F52' }}>
+                            {(100 - crop.distance).toFixed(1)}%
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-            
+
+            {/* Profit Estimator */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border" style={{ borderColor: '#DDE7E1' }}>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 rounded-lg" style={{ backgroundColor: '#A5D6A7' }}>
+                  <Calculator size={24} style={{ color: '#2E7D32' }} />
+                </div>
+                <div>
+                  <h2 className="text-2xl font-bold" style={{ color: '#1B4332' }}>Profit Estimator</h2>
+                  <p style={{ color: '#4F6F52' }}>Calculate potential profitability for your recommended crops</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                {[
+                  { label: 'Land Area (acres/hectares)', key: 'area', placeholder: 'Enter area' },
+                  { label: 'Expected Yield (kg per acre/hectare)', key: 'yield', placeholder: 'Enter expected yield' },
+                  { label: 'Market Price (₹ per kg)', key: 'marketPrice', placeholder: 'Enter market price' },
+                  { label: 'Cultivation Cost (₹ per acre/hectare)', key: 'cultivationCost', placeholder: 'Enter cultivation cost' }
+                ].map((field) => (
+                  <div key={field.key}>
+                    <label className="block text-sm font-medium mb-2" style={{ color: '#1B4332' }}>{field.label}</label>
+                    <input
+                      type="number"
+                      placeholder={field.placeholder}
+                      value={profitData[field.key]}
+                      onChange={(e) => setProfitData({ ...profitData, [field.key]: e.target.value })}
+                      className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      style={{ backgroundColor: '#F5F7F6', borderColor: '#DDE7E1' }}
+                    />
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex justify-center mb-6">
+                <button
+                  onClick={calculateProfit}
+                  className="px-8 py-3 rounded-lg font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
+                  style={{ backgroundColor: '#2E7D32' }}
+                >
+                  <Calculator size={20} />
+                  Calculate Profit
+                </button>
+              </div>
+
+              {estimatedProfit && (
+                <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+                  <h3 className="text-xl font-bold mb-4 text-center" style={{ color: '#1B4332' }}>Profit Analysis</h3>
+                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    {[
+                      { label: 'Total Yield', value: `${estimatedProfit.totalYield.toFixed(1)} kg`, icon: <Target size={24} style={{ color: '#2E7D32' }} /> },
+                      { label: 'Revenue', value: `₹${estimatedProfit.totalRevenue.toFixed(0)}`, icon: <DollarSign size={24} style={{ color: '#2E7D32' }} /> },
+                      { label: 'Costs', value: `₹${estimatedProfit.totalCost.toFixed(0)}`, icon: <TrendingUp size={24} style={{ color: '#2E7D32' }} /> },
+                      { label: 'Net Profit', value: `₹${estimatedProfit.profit.toFixed(0)}`, sub: `(${estimatedProfit.profitMargin.toFixed(1)}% margin)`, icon: <Award size={24} style={{ color: estimatedProfit.profit > 0 ? '#2E7D32' : '#DC2626' }} />, bg: estimatedProfit.profit > 0 ? '#A5D6A7' : '#FFF5F5' }
+                    ].map((item, i) => (
+                      <div key={i} className="text-center">
+                        <div className="p-3 rounded-lg mb-2 mx-auto w-fit" style={{ backgroundColor: item.bg || '#A5D6A7' }}>
+                          {item.icon}
+                        </div>
+                        <p className="text-sm" style={{ color: '#4F6F52' }}>{item.label}</p>
+                        <p className="text-lg font-bold" style={{ color: '#1B4332' }}>{item.value}</p>
+                        {item.sub && <p className={`text-sm ${estimatedProfit.profit > 0 ? 'text-green-600' : 'text-red-600'}`}>{item.sub}</p>}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Warnings */}
             {prediction.warnings && (
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-yellow-500 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                </svg>
-                <p className="text-yellow-700">{prediction.warnings}</p>
+              <div className="bg-white rounded-xl shadow-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-lg" style={{ backgroundColor: '#FFF9C4' }}>
+                    <AlertTriangle size={24} style={{ color: '#F59E0B' }} />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-2" style={{ color: '#1B4332' }}>Important Considerations</h3>
+                    <p style={{ color: '#4F6F52' }}>{prediction.warnings}</p>
+                  </div>
+                </div>
               </div>
             )}
+
+            {/* Action Buttons */}
+            <div className="bg-white rounded-xl shadow-lg p-6 border" style={{ borderColor: '#DDE7E1' }}>
+              <div className="flex flex-wrap justify-center gap-4">
+                <button
+                  onClick={() => navigate(-1)}
+                  className="flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-md"
+                  style={{ backgroundColor: '#F5F7F6', color: '#4F6F52', border: '1px solid #DDE7E1' }}
+                >
+                  <ArrowLeft size={18} />
+                  Back
+                </button>
+                <button
+                  onClick={() => navigate("/soil-details")}
+                  className="flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-md"
+                  style={{ backgroundColor: '#A5D6A7', color: '#1B4332' }}
+                >
+                  <RotateCcw size={18} />
+                  New Analysis
+                </button>
+                <button
+                  onClick={() => navigate("/price-prediction", { state: { crops: { main: prediction.main_crop, subs: prediction.sub_crops } } })}
+                  className="flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-white shadow-lg hover:shadow-xl transition-all duration-300"
+                  style={{ backgroundColor: '#2E7D32' }}
+                >
+                  <BarChart3 size={18} />
+                  Market Forecast
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+            </div>
           </>
         )}
-        
-        <div className="flex flex-wrap justify-center gap-4 mt-8">
-          <button
-            onClick={() => navigate(-1)}
-            className="bg-white border border-green-500 text-green-700 py-3 px-6 rounded-lg font-semibold hover:bg-green-50 transition duration-300 shadow-md flex items-center"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Back
-          </button>
-          
-          <button
-            onClick={() => navigate("/soil-details")}
-            className="bg-gradient-to-r from-green-500 to-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition duration-300 shadow-md flex items-center"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-            </svg>
-            New Prediction
-          </button>
-          
-          <button
-            onClick={() => navigate("/price-prediction", { state: { crops: { main: prediction.main_crop, subs: prediction.sub_crops } } })}
-            className="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition duration-300 shadow-md flex items-center"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            View Price Predictions
-          </button>
-        </div>
       </div>
     </div>
   );

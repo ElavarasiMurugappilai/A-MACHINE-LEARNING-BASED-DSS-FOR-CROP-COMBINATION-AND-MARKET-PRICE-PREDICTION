@@ -1,19 +1,22 @@
-import { Sprout } from "lucide-react";
+import { Sprout, Leaf, TrendingUp, History, BarChart3, LineChart, Users, Target, Award, Zap } from "lucide-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
   const isAuthenticated = !!localStorage.getItem("username");
-  
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100">
+    <div className="min-h-screen" style={{ backgroundColor: '#F5F7F6' }}>
       {/* Navigation Bar */}
-      <nav className="bg-gradient-to-r from-green-600 to-green-700 p-4 shadow-lg">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-          <Sprout size={40} className="text-white" />
-            <h1 className="text-white text-2xl font-bold">AgriPredict</h1>
+      <nav className="bg-white shadow-lg border-b" style={{ borderColor: '#DDE7E1' }}>
+        <div className="container mx-auto flex justify-between items-center py-4 px-6">
+          <div className="flex items-center space-x-3">
+            <Sprout size={40} style={{ color: '#2E7D32' }} />
+            <div>
+              <h1 className="text-2xl font-bold" style={{ color: '#1B4332' }}>AgroVision AI</h1>
+              <p className="text-sm" style={{ color: '#4F6F52' }}>From Soil to Profit – Smarter Farming Starts Here</p>
+            </div>
           </div>
           <div className="space-x-4">
             {isAuthenticated ? (
@@ -22,7 +25,8 @@ function Home() {
                   localStorage.removeItem("username");
                   navigate("/login");
                 }}
-                className="text-white bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full font-semibold transition duration-300 shadow-md"
+                className="text-white px-6 py-2 rounded-full font-semibold transition duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
+                style={{ backgroundColor: '#2E7D32' }}
               >
                 Logout
               </button>
@@ -30,13 +34,15 @@ function Home() {
               <>
                 <button
                   onClick={() => navigate("/login")}
-                  className="text-green-700 bg-white hover:bg-green-50 px-6 py-2 rounded-full font-semibold transition duration-300 shadow-md"
+                  className="px-6 py-2 rounded-full font-semibold transition duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
+                  style={{ color: '#2E7D32', backgroundColor: '#A5D6A7' }}
                 >
                   Login
                 </button>
                 <button
                   onClick={() => navigate("/signup")}
-                  className="text-white bg-green-700 hover:bg-green-800 px-6 py-2 rounded-full font-semibold transition duration-300 shadow-md border border-white"
+                  className="text-white px-6 py-2 rounded-full font-semibold transition duration-300 shadow-md hover:shadow-lg transform hover:scale-105 border"
+                  style={{ backgroundColor: '#2E7D32', borderColor: '#A5D6A7' }}
                 >
                   Signup
                 </button>
@@ -47,119 +53,157 @@ function Home() {
       </nav>
 
       {/* Hero Section */}
-      <div className="container mx-auto py-20 px-4 text-center">
-        <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-xl p-8 transform hover:scale-[1.01] transition duration-300">
-          <h2 className="text-5xl font-bold text-green-700 mb-6">
-            Welcome to <span className="text-green-500">AgriPredict</span>
+      <div className="container mx-auto py-20 px-4 text-center animate-fade-in">
+        <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-xl p-8 transform hover:scale-[1.01] transition duration-300" style={{ borderColor: '#DDE7E1', borderWidth: '1px' }}>
+          <h2 className="text-5xl font-bold mb-6" style={{ color: '#1B4332' }}>
+            AgroVision AI
           </h2>
-          <p className="text-xl text-gray-700 mb-10 leading-relaxed">
-            Empowering farmers with smart crop selection and market predictions
-            using cutting-edge machine learning.
+          <p className="text-2xl font-semibold mb-4" style={{ color: '#2E7D32' }}>
+            From Soil to Profit – Smarter Farming Starts Here
           </p>
-          <button
-            onClick={() => navigate("/soil-details")}
-            className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition duration-300 shadow-lg transform hover:-translate-y-1 text-lg"
-          >
-            Get Started - Enter Soil Details
-          </button>
+          <p className="text-xl mb-10 leading-relaxed" style={{ color: '#4F6F52' }}>
+            Empowering farmers with AI-powered crop recommendations, sub-crop suggestions, and market forecasting using advanced machine learning.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <button
+              onClick={() => navigate("/soil-details")}
+              className="text-white px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-lg"
+              style={{ backgroundColor: '#2E7D32' }}
+            >
+              Start Analysis
+            </button>
+            <button
+              onClick={() => document.getElementById('features').scrollIntoView({ behavior: 'smooth' })}
+              className="px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-lg border-2"
+              style={{ color: '#2E7D32', backgroundColor: 'white', borderColor: '#2E7D32' }}
+            >
+              Explore Features
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Feature Cards */}
-      <div className="container mx-auto py-12 px-4">
+      <div id="features" className="container mx-auto py-12 px-4">
+        <h3 className="text-3xl font-bold text-center mb-12" style={{ color: '#1B4332' }}>Our AI-Powered Solutions</h3>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
-            <div className="rounded-full bg-green-100 w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-              </svg>
+          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 hover:shadow-xl transition duration-300 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto" style={{ backgroundColor: '#A5D6A7' }}>
+              <Leaf size={32} style={{ color: '#2E7D32' }} />
             </div>
-            <h3 className="text-xl font-bold text-green-700 text-center mb-3">Crop Recommendations</h3>
-            <p className="text-gray-600 text-center">
-              Get accurate crop suggestions based on soil metrics, weather data, and environmental factors.
+            <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1B4332' }}>Smart Crop Advisor</h3>
+            <p style={{ color: '#4F6F52' }} className="text-center">
+              Get accurate crop suggestions based on soil metrics, weather data, and environmental factors using advanced AI algorithms.
             </p>
           </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
-            <div className="rounded-full bg-green-100 w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+
+          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 hover:shadow-xl transition duration-300 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto" style={{ backgroundColor: '#A5D6A7' }}>
+              <BarChart3 size={32} style={{ color: '#2E7D32' }} />
             </div>
-            <h3 className="text-xl font-bold text-green-700 text-center mb-3">Sub-crop Suggestions</h3>
-            <p className="text-gray-600 text-center">
-              Enhance soil health and promote sustainable farming practices with companion crops.
+            <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1B4332' }}>Soil Intelligence Engine</h3>
+            <p style={{ color: '#4F6F52' }} className="text-center">
+              Analyze soil composition with N, P, K levels and pH values to optimize crop selection and yield potential.
             </p>
           </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
-            <div className="rounded-full bg-green-100 w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
-              </svg>
+
+          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 hover:shadow-xl transition duration-300 border" style={{ borderColor: '#DDE7E1' }}>
+            <div className="rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto" style={{ backgroundColor: '#A5D6A7' }}>
+              <TrendingUp size={32} style={{ color: '#2E7D32' }} />
             </div>
-            <h3 className="text-xl font-bold text-green-700 text-center mb-3">Market Price Predictions</h3>
-            <p className="text-gray-600 text-center">
-              Maximize profits with real-time market price predictions using dynamic government data.
+            <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1B4332' }}>AI Market Forecasting</h3>
+            <p style={{ color: '#4F6F52' }} className="text-center">
+              Maximize profits with real-time market price predictions using dynamic government data and time series analysis.
+            </p>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 hover:shadow-xl transition duration-300 border md:col-span-3" style={{ borderColor: '#DDE7E1' }}>
+            <div className="rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto" style={{ backgroundColor: '#A5D6A7' }}>
+              <History size={32} style={{ color: '#2E7D32' }} />
+            </div>
+            <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1B4332' }}>Farm Insights Dashboard</h3>
+            <p style={{ color: '#4F6F52' }} className="text-center">
+              Track your past analyses, monitor trends, and access historical data to make informed farming decisions.
             </p>
           </div>
         </div>
       </div>
 
-      {/* About Website Section */}
+      {/* Dashboard Stats Strip */}
+      <div className="py-12 px-4" style={{ backgroundColor: '#A5D6A7' }}>
+        <div className="container mx-auto">
+          <h3 className="text-2xl font-bold text-center mb-8" style={{ color: '#1B4332' }}>Platform Performance</h3>
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300">
+              <Award size={40} style={{ color: '#2E7D32' }} className="mx-auto mb-2" />
+              <h4 className="text-lg font-semibold" style={{ color: '#1B4332' }}>Crop Accuracy</h4>
+              <p className="text-2xl font-bold" style={{ color: '#2E7D32' }}>99.5%</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300">
+              <Target size={40} style={{ color: '#2E7D32' }} className="mx-auto mb-2" />
+              <h4 className="text-lg font-semibold" style={{ color: '#1B4332' }}>Sub-Crop Match Quality</h4>
+              <p className="text-2xl font-bold" style={{ color: '#2E7D32' }}>97%</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300">
+              <LineChart size={40} style={{ color: '#2E7D32' }} className="mx-auto mb-2" />
+              <h4 className="text-lg font-semibold" style={{ color: '#1B4332' }}>Price Forecast Support</h4>
+              <p className="text-2xl font-bold" style={{ color: '#2E7D32' }}>95%</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300">
+              <Users size={40} style={{ color: '#2E7D32' }} className="mx-auto mb-2" />
+              <h4 className="text-lg font-semibold" style={{ color: '#1B4332' }}>Farmer Decision Support</h4>
+              <p className="text-2xl font-bold" style={{ color: '#2E7D32' }}>10,000+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* About Section */}
       <div className="bg-white py-16 px-4 shadow-inner">
         <div className="container mx-auto">
-          <h3 className="text-3xl font-bold text-green-600 text-center mb-10 relative">
-            <span className="bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">About Our Platform</span>
-            <div className="h-1 w-24 bg-gradient-to-r from-green-400 to-green-600 mx-auto mt-4"></div>
+          <h3 className="text-3xl font-bold text-center mb-10" style={{ color: '#1B4332' }}>
+            Why Choose AgroVision AI?
           </h3>
-          
-          <div className="bg-green-50 p-8 rounded-2xl shadow-md max-w-4xl mx-auto">
-            <p className="text-gray-700 text-lg leading-relaxed">
-              AgriPredict is a web application designed to address the
-              sustainability crisis in agriculture by assisting farmers in making
-              informed decisions. Built by a team from{" "}
-              <span className="font-semibold text-green-700">College of Engineering ,Guindy (Anna University)</span> 
-              , our platform leverages machine learning to provide:
+
+          <div className="bg-gray-50 p-8 rounded-2xl shadow-md max-w-4xl mx-auto" style={{ backgroundColor: '#F5F7F6' }}>
+            <p className="text-lg leading-relaxed mb-6" style={{ color: '#4F6F52' }}>
+              AgroVision AI is an intelligent agricultural support system designed to address sustainability challenges in farming. Built by engineering students from Anna University, our platform leverages cutting-edge machine learning to provide data-driven insights for crop and market decisions.
             </p>
-            
-            <ul className="mt-6 space-y-4">
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span className="text-gray-700">
-                  Accurate crop recommendations based on soil metrics (N, P, K),
-                  weather data, and environmental factors.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span className="text-gray-700">
-                  Sub-crop suggestions to enhance soil health and promote
-                  sustainable farming practices.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span className="text-gray-700">
-                  Real-time market price predictions using dynamic datasets from
-                  government sources, helping farmers maximize profits.
-                </span>
-              </li>
-            </ul>
-            
-            <div className="mt-8 p-4 bg-green-100 rounded-lg border border-green-200">
-              <p className="text-gray-700 text-lg leading-relaxed">
-                With a main crop recommendation accuracy of <span className="font-bold text-green-700">99.5%</span> and
-                subcrop recommendation accuracy of <span className="font-bold text-green-700">97%</span>,
-                AgriPredict combines traditional agricultural wisdom with modern
-                technology to empower farmers towards a sustainable and profitable
-                future.
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-start">
+                <Zap size={24} style={{ color: '#2E7D32' }} className="mr-3 flex-shrink-0 mt-1" />
+                <div>
+                  <h4 className="font-semibold mb-2" style={{ color: '#1B4332' }}>AI-Powered Recommendations</h4>
+                  <p style={{ color: '#4F6F52' }}>Advanced algorithms analyze soil, weather, and market data to provide personalized crop suggestions.</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <TrendingUp size={24} style={{ color: '#2E7D32' }} className="mr-3 flex-shrink-0 mt-1" />
+                <div>
+                  <h4 className="font-semibold mb-2" style={{ color: '#1B4332' }}>Market Intelligence</h4>
+                  <p style={{ color: '#4F6F52' }}>Real-time price forecasting helps farmers maximize profits and minimize risks.</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <Leaf size={24} style={{ color: '#2E7D32' }} className="mr-3 flex-shrink-0 mt-1" />
+                <div>
+                  <h4 className="font-semibold mb-2" style={{ color: '#1B4332' }}>Sustainable Farming</h4>
+                  <p style={{ color: '#4F6F52' }}>Promote eco-friendly practices with companion crop suggestions and soil health optimization.</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <BarChart3 size={24} style={{ color: '#2E7D32' }} className="mr-3 flex-shrink-0 mt-1" />
+                <div>
+                  <h4 className="font-semibold mb-2" style={{ color: '#1B4332' }}>Data-Driven Insights</h4>
+                  <p style={{ color: '#4F6F52' }}>Comprehensive analytics and historical tracking for informed decision-making.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 p-4 rounded-lg border-l-4" style={{ backgroundColor: '#A5D6A7', borderColor: '#2E7D32' }}>
+              <p className="font-semibold" style={{ color: '#1B4332' }}>
+                Join thousands of farmers making smarter, more profitable farming decisions with AgroVision AI.
               </p>
             </div>
           </div>
@@ -167,22 +211,23 @@ function Home() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-green-600 to-green-700 py-16 px-4">
+      <div className="py-16 px-4" style={{ backgroundColor: '#2E7D32' }}>
         <div className="container mx-auto text-center">
-          <h3 className="text-3xl font-bold text-white mb-6">Ready to optimize your farm?</h3>
-          <p className="text-lg text-green-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of farmers who are making data-driven decisions to improve yield and profitability.
+          <h3 className="text-3xl font-bold text-white mb-6">Ready to Transform Your Farm?</h3>
+          <p className="text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#A5D6A7' }}>
+            Start your journey towards smarter farming with AI-powered insights and data-driven decisions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button
               onClick={() => navigate("/signup")}
-              className="bg-white text-green-700 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition duration-300 shadow-lg text-lg"
+              className="text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105 text-lg"
+              style={{ backgroundColor: '#FFC107', color: '#1B4332' }}
             >
               Create Account
             </button>
             <button
               onClick={() => navigate("/soil-details")}
-              className="bg-transparent text-white border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300 shadow-lg text-lg"
+              className="bg-transparent text-white border-2 px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-700 transition duration-300 shadow-lg text-lg border-white"
             >
               Try Without Account
             </button>
@@ -191,19 +236,17 @@ function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-green-800 text-white py-8 text-center">
+      <footer className="bg-gray-800 text-white py-8 text-center">
         <div className="container mx-auto">
           <div className="flex justify-center items-center mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-green-300 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-            </svg>
-            <h2 className="text-2xl font-bold text-green-300">AgriPredict</h2>
+            <Sprout size={32} style={{ color: '#A5D6A7' }} className="mr-2" />
+            <h2 className="text-2xl font-bold" style={{ color: '#A5D6A7' }}>AgroVision AI</h2>
           </div>
-          <p className="text-green-100">&copy; 2025 AgriPredict. All rights reserved.</p>
+          <p style={{ color: '#DDE7E1' }}>&copy; 2025 AgroVision AI. All rights reserved.</p>
           <div className="mt-4 flex justify-center space-x-4">
-            <a href="#" className="text-green-300 hover:text-white transition duration-300">Privacy Policy</a>
-            <a href="#" className="text-green-300 hover:text-white transition duration-300">Terms of Service</a>
-            <a href="#" className="text-green-300 hover:text-white transition duration-300">Contact Us</a>
+            <a href="#" style={{ color: '#A5D6A7' }} className="hover:text-white transition duration-300">Privacy Policy</a>
+            <a href="#" style={{ color: '#A5D6A7' }} className="hover:text-white transition duration-300">Terms of Service</a>
+            <a href="#" style={{ color: '#A5D6A7' }} className="hover:text-white transition duration-300">Contact Us</a>
           </div>
         </div>
       </footer>
